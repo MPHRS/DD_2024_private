@@ -165,3 +165,21 @@ cython_debug/
 # Data for tasks
 
 hw2/data/
+.gitattributes
+hw2/spades/K21/
+hw2/spades/K33/
+hw2/spades/K55/
+hw2/spades/assembly_graph.fastg
+hw2/spades/assembly_graph_after_simplification.gfa
+hw2/spades/assembly_graph_with_scaffolds.gfa
+hw2/spades/before_rr.fasta
+hw2/spades/contigs.paths
+hw2/spades/corrected/
+hw2/spades/dataset.info
+hw2/spades/input_dataset.yaml
+hw2/spades/misc/
+hw2/spades/params.txt
+hw2/spades/pipeline_state/
+hw2/spades/run_spades.sh
+hw2/spades/run_spades.yaml
+hw2/spades/scaffolds.paths
