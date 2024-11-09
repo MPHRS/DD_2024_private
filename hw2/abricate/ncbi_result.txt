@@ -1,0 +1,10 @@
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+hw2/spades/scaffolds.fasta	NODE_128_length_1444_cov_174.051116	148	1008	-	blaTEM-1	1-861/861	===============	0/0	100.00	100.00	ncbi	NG_050145.1	class A broad-spectrum beta-lactamase TEM-1	BETA-LACTAM
+hw2/spades/scaffolds.fasta	NODE_26_length_66140_cov_71.276114	49792	50925	+	blaEC-18	1-1134/1134	===============	0/0	100.00	98.24	ncbi	NG_049083.1	class C extended-spectrum beta-lactamase EC-18	CEPHALOSPORIN
+hw2/spades/scaffolds.fasta	NODE_49_length_27340_cov_78.346747	2441	3316	+	blaCTX-M-15	1-876/876	===============	0/0	100.00	100.00	ncbi	NG_048935.1	class A extended-spectrum beta-lactamase CTX-M-15	CEPHALOSPORIN
+hw2/spades/scaffolds.fasta	NODE_71_length_7427_cov_48.041101	56	816	-	sul1	1-761/828	==============.	0/0	91.91	100.00	ncbi	NG_048089.1	sulfonamide-resistant dihydropteroate synthase Sul1	SULFONAMIDE
+hw2/spades/scaffolds.fasta	NODE_71_length_7427_cov_48.041101	1387	1860	-	dfrA7	1-474/474	===============	0/0	100.00	100.00	ncbi	NG_047737.1	trimethoprim-resistant dihydrofolate reductase DfrA7	TRIMETHOPRIM
+hw2/spades/scaffolds.fasta	NODE_87_length_4495_cov_39.987838	63	899	-	aph(6)-Id	1-837/837	===============	0/0	100.00	100.00	ncbi	NG_047464.1	aminoglycoside O-phosphotransferase APH(6)-Id	STREPTOMYCIN
+hw2/spades/scaffolds.fasta	NODE_87_length_4495_cov_39.987838	899	1726	-	aph(3'')-Ib	1-828/828	===============	0/0	100.00	100.00	ncbi	NG_056002.2	aminoglycoside O-phosphotransferase APH(3'')-Ib	STREPTOMYCIN
+hw2/spades/scaffolds.fasta	NODE_87_length_4495_cov_39.987838	1763	2578	-	sul2	1-816/816	===============	0/0	100.00	99.88	ncbi	NG_048118.1	sulfonamide-resistant dihydropteroate synthase Sul2	SULFONAMIDE
+hw2/spades/scaffolds.fasta	NODE_91_length_4054_cov_26.673168	956	2155	-	tet(A)	1-1200/1200	===============	0/0	100.00	100.00	ncbi	NG_048154.1	tetracycline efflux MFS transporter Tet(A)	TETRACYCLINE

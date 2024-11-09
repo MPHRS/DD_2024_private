@@ -1,0 +1,10 @@
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+hw2/spades/scaffolds.fasta	NODE_128_length_1444_cov_174.051116	148	1008	-	blaTEM-1B_1	1-861/861	===============	0/0	100.00	100.00	resfinder	AY458016	blaTEM-1B	Amoxicillin;Ampicillin;Cephalothin;Piperacillin;Ticarcillin
+hw2/spades/scaffolds.fasta	NODE_12_length_126949_cov_69.176549	26089	27321	+	mdf(A)_1	1-1233/1233	===============	0/0	100.00	98.46	resfinder	Y08743	mdf(A)	
+hw2/spades/scaffolds.fasta	NODE_49_length_27340_cov_78.346747	2441	3316	+	blaCTX-M-15_1	1-876/876	===============	0/0	100.00	100.00	resfinder	AY044436	blaCTX-M-15	Amoxicillin;Ampicillin;Aztreonam;Cefepime;Cefotaxime;Ceftazidime;Ceftriaxone;Piperacillin;Ticarcillin
+hw2/spades/scaffolds.fasta	NODE_71_length_7427_cov_48.041101	56	843	-	sul1_5	1-788/867	==============.	0/0	90.89	99.87	resfinder	EU780013	sul1	Sulfamethoxazole
+hw2/spades/scaffolds.fasta	NODE_71_length_7427_cov_48.041101	1287	1860	-	dfrA7_5	1-570/570	========/======	3/4	100.00	98.78	resfinder	AJ419170	dfrA7	Trimethoprim
+hw2/spades/scaffolds.fasta	NODE_87_length_4495_cov_39.987838	63	899	-	aph(6)-Id_1	1-837/837	===============	0/0	100.00	100.00	resfinder	M28829	aph(6)-Id	Streptomycin
+hw2/spades/scaffolds.fasta	NODE_87_length_4495_cov_39.987838	899	1702	-	aph(3'')-Ib_5	1-804/804	===============	0/0	100.00	100.00	resfinder	AF321551	aph(3'')-Ib	Streptomycin
+hw2/spades/scaffolds.fasta	NODE_87_length_4495_cov_39.987838	1763	2578	-	sul2_3	1-816/816	===============	0/0	100.00	100.00	resfinder	HQ840942	sul2	Sulfamethoxazole
+hw2/spades/scaffolds.fasta	NODE_91_length_4054_cov_26.673168	984	2230	-	tet(A)_6	1-1247/1275	===============	0/0	97.80	100.00	resfinder	AF534183	tet(A)	Doxycycline;Tetracycline
