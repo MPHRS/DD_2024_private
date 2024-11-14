@@ -1,0 +1,107 @@
+import json
+import csv
+
+# Загружаем параметры из params.json
+with open("params.json") as f:
+    params = json.load(f)
+
+# Загружаем данные из samples.csv
+samples = []
+with open("samples.csv") as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        samples.append(row)
+
+# Правило all (если нужно собрать все файлы)
+rule all:
+    input:
+        expand("test_output/abricate/{sample_id}/result.txt", sample_id=[s["sample_id"].split('.')[0] for s in samples])
+
+# Для каждого сэмпла в списке samples
+for sample in samples:
+    sample_id = sample["sample_id"]
+    read_1 = sample["read_1"]
+    read_2 = sample["read_2"]
+
+    # FastQC
+    rule fastqc:
+        input:
+            read_1=f"test_input/{read_1}",
+            read_2=f"test_input/{read_2}"
+        output:
+            html1=f"test_output/fastqc/{read_1.split('.')[0]}_fastqc.html",
+            html2=f"test_output/fastqc/{read_2.split('.')[0]}_fastqc.html"
+        log:
+            log1=f"test_output/fastqc/{read_1.split('.')[0]}_fastqc.log",
+            log2=f"test_output/fastqc/{read_2.split('.')[0]}_fastqc.log"
+        conda:
+            "./envs/fastqc.yaml"
+            # "/home/mhprs/miniconda3/envs/DD_fastqc_h"
+        params:
+            threads=params["global_params"]["threads"]
+        shell:
+            "fastqc {input.read_1} {input.read_2} -o test_output/fastqc --threads {params.threads} > {log.log1} 2>&1"
+
+    # SPAdes
+    rule spades:
+        input:
+            read_1=f"test_input/{read_1}",
+            read_2=f"test_input/{read_2}"
+        output:
+            assembly=f"test_output/spades/{sample_id}/"  # Используем sample_id здесь
+        conda:
+            "./envs/spades.yaml"
+            # "/home/mhprs/miniconda3/envs/DD_spades"
+        params:
+            threads=params["spades"]["threads"],
+            memory=params["spades"]["memory"],
+            memory_mb=int(params["spades"]["memory"].replace('G', '')) * 1024
+        shell:
+            "spades.py -1 {input.read_1} -2 {input.read_2} -o {output.assembly} --threads {params.threads} --memory {params.memory_mb}"
+
+   
+
+    # Quast
+    rule quast:
+        input:
+            dir=directory(f"test_output/spades/{sample_id}/")
+        output:
+            report_dir_quast=directory(f"test_output/quast/{sample_id}/")   # Папка для отчетов
+        conda:
+            "./envs/quast.yaml"
+            # "/home/mhprs/miniconda3/envs/DD_quast"
+        params:
+            reference=params["quast"]["reference"]
+        shell:
+            "quast -o {output.report_dir_quast} {input.dir}/contigs.fasta {input.dir}/scaffolds.fasta "
+
+    # Prokka
+    rule prokka:
+        input:
+            assembly=directory(f"test_output/spades/{sample_id}/")
+        output:
+            gff=f"{params['prokka']['outdir']}/{sample_id}.gff"
+        conda:
+            "./envs/prokka.yaml"
+            # "/home/mhprs/miniconda3/envs/DD_prokka_h"
+        params:
+            genus=params["prokka"]["genus"],
+            outdir=params["prokka"]["outdir"]
+        shell:
+            "prokka --outdir {params.outdir} --prefix {sample_id} --genus {params.genus} {input.assembly}/scaffolds.fasta --force"
+
+    # Abricate
+    rule abricate:
+        input:
+            quast_dir=directory(f"test_output/quast/{sample_id}/"),
+            prokka_gff=f"{params['prokka']['outdir']}/{sample_id}.gff",
+            spades_scaffolds=directory(f"test_output/spades/{sample_id}/")
+        output:
+            abricate_result=f"test_output/abricate/{sample_id}/result.txt"
+        conda:
+            "./envs/abricate.yaml"
+            # "/home/mhprs/miniconda3/envs/DD_abricate_h"
+        params:
+            database=params["abricate"]["database"]
+        shell:
+            "abricate --db {params.database} {input.spades_scaffolds}/scaffolds.fasta > {output.abricate_result}"

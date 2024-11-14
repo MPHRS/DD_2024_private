@@ -1,0 +1,30 @@
+==> 2024-11-13 12:41:45 <==
+# cmd: /home/mhprs/miniconda3/condabin/conda env create --quiet --no-default-packages --file /home/mhprs/PISH/Data_driven/DD_2024_private/hw3/.snakemake/conda/ff2afa5cf8f4aa2015019036e0bd9cdc_.yaml --prefix /home/mhprs/PISH/Data_driven/DD_2024_private/hw3/.snakemake/conda/ff2afa5cf8f4aa2015019036e0bd9cdc_
+# conda version: 24.9.2
++bioconda/linux-64::spades-4.0.0-h6dccd9a_3
++conda-forge/linux-64::_libgcc_mutex-0.1-conda_forge
++conda-forge/linux-64::_openmp_mutex-4.5-2_gnu
++conda-forge/linux-64::bzip2-1.0.8-h4bc722e_7
++conda-forge/linux-64::ca-certificates-2024.8.30-hbcca054_0
++conda-forge/linux-64::ld_impl_linux-64-2.43-h712a8e2_2
++conda-forge/linux-64::libexpat-2.6.4-h5888daf_0
++conda-forge/linux-64::libffi-3.4.2-h7f98852_5
++conda-forge/linux-64::libgcc-14.2.0-h77fa898_1
++conda-forge/linux-64::libgcc-ng-14.2.0-h69a702a_1
++conda-forge/linux-64::libgomp-14.2.0-h77fa898_1
++conda-forge/linux-64::libmpdec-4.0.0-h4bc722e_0
++conda-forge/linux-64::libsqlite-3.47.0-hadc24fc_1
++conda-forge/linux-64::libstdcxx-14.2.0-hc0a3c3a_1
++conda-forge/linux-64::libstdcxx-ng-14.2.0-h4852527_1
++conda-forge/linux-64::libuuid-2.38.1-h0b41bf4_0
++conda-forge/linux-64::libzlib-1.3.1-hb9d3cd8_2
++conda-forge/linux-64::ncurses-6.5-he02047a_1
++conda-forge/linux-64::openssl-3.4.0-hb9d3cd8_0
++conda-forge/linux-64::python-3.13.0-h9ebbce0_100_cp313
++conda-forge/linux-64::python_abi-3.13-5_cp313
++conda-forge/linux-64::readline-8.2-h8228510_1
++conda-forge/linux-64::tk-8.6.13-noxft_h4845f30_101
++conda-forge/linux-64::xz-5.2.6-h166bdaf_0
++conda-forge/noarch::pip-24.3.1-pyh145f28c_0
++conda-forge/noarch::tzdata-2024b-hc8b5060_0
+# update specs: ['spades']

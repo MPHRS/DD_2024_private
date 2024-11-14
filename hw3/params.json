@@ -1,0 +1,20 @@
+{
+    "global_params": {
+        "outdir": "test_output",
+        "threads": 4
+    },
+    "spades": {
+        "threads": 4,
+        "memory": "8G"
+    },
+    "quast": {
+        "reference": "test_input/SRR292678_contigs.fasta"
+    },
+    "prokka": {
+        "genus": "Escherichia",
+        "outdir": "test_output/prokka_out"
+    },
+    "abricate": {
+        "database": "resfinder"
+    }
+}
