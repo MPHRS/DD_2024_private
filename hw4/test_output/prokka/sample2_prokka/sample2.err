@@ -1,0 +1,1049 @@
+Discrepancy Report Results
+
+Summary
+DISC_PROTEIN_NAMES:All proteins have same name "hypothetical protein"
+FATAL: MISSING_PROTEIN_ID:39 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all same)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all same)
+DISC_FEATURE_COUNT:CDS: 39 present
+DISC_COUNT_NUCLEOTIDES:82 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:39 features have inconsistent gene locations.
+SHORT_CONTIG:22 contigs are shorter than 200 nt.
+ZERO_BASECOUNT:6 sequences have a zero basecount for a nucleotide
+NO_ANNOTATION:65 bioseqs have no features
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:82 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:2 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:82 bioseqs are missing GenomeAssembly structured comments
+SHORT_SEQUENCES_200:22 sequences are shorter than 200 bp.
+MOLTYPE_NOT_MRNA:82 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:82 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:82 sequences do not include structured comments.
+MISSING_PROJECT:121 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+DISC_GAPS:1 sequences contain gaps
+SEQ_ID_PHRASES:Sequence Ids contain unacceptable phrases (cov_, length, node, paired, or trimmed)
+
+
+Detailed Report
+
+DiscRep_ALL:DISC_PROTEIN_NAMES::All proteins have same name "hypothetical protein"
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::39 proteins have invalid IDs.
+sample2_prokka/sample2:NODE_1_length_17115_cov_466.372910_1 (length 58)
+sample2_prokka/sample2:NODE_1_length_17115_cov_466.372910_2 (length 125)
+sample2_prokka/sample2:NODE_1_length_17115_cov_466.372910_3 (length 153)
+sample2_prokka/sample2:NODE_1_length_17115_cov_466.372910_4 (length 118)
+sample2_prokka/sample2:NODE_1_length_17115_cov_466.372910_5 (length 53)
+sample2_prokka/sample2:NODE_1_length_17115_cov_466.372910_6 (length 1373)
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649_1 (length 2166)
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649_2 (length 84)
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649_3 (length 154)
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649_4 (length 589)
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649_5 (length 310)
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649_6 (length 318)
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649_7 (length 241)
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649_8 (length 391)
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649_9 (length 71)
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649_10 (length 139)
+sample2_prokka/sample2:NODE_3_length_7148_cov_337.268195_1 (length 416)
+sample2_prokka/sample2:NODE_3_length_7148_cov_337.268195_2 (length 121)
+sample2_prokka/sample2:NODE_3_length_7148_cov_337.268195_3 (length 121)
+sample2_prokka/sample2:NODE_3_length_7148_cov_337.268195_4 (length 61)
+sample2_prokka/sample2:NODE_3_length_7148_cov_337.268195_5 (length 222)
+sample2_prokka/sample2:NODE_3_length_7148_cov_337.268195_6 (length 275)
+sample2_prokka/sample2:NODE_3_length_7148_cov_337.268195_7 (length 892)
+sample2_prokka/sample2:NODE_4_length_4940_cov_443.500312_1 (length 1616)
+sample2_prokka/sample2:NODE_5_length_2255_cov_2.634398_1 (length 115)
+sample2_prokka/sample2:NODE_5_length_2255_cov_2.634398_2 (length 56)
+sample2_prokka/sample2:NODE_5_length_2255_cov_2.634398_3 (length 68)
+sample2_prokka/sample2:NODE_6_length_2183_cov_2.428988_1 (length 34)
+sample2_prokka/sample2:NODE_7_length_1658_cov_4.133246_1 (length 169)
+sample2_prokka/sample2:NODE_10_length_851_cov_0.838398_1 (length 255)
+sample2_prokka/sample2:NODE_12_length_810_cov_0.941435_1 (length 119)
+sample2_prokka/sample2:NODE_14_length_724_cov_1.422111_1 (length 86)
+sample2_prokka/sample2:NODE_17_length_612_cov_1.255670_1 (length 45)
+sample2_prokka/sample2:NODE_18_length_586_cov_0.793028_1 (length 56)
+sample2_prokka/sample2:NODE_33_length_433_cov_1.405229_1 (length 114)
+sample2_prokka/sample2:NODE_37_length_418_cov_1.580756_1 (length 71)
+sample2_prokka/sample2:NODE_44_length_397_cov_0.900000_1 (length 51)
+sample2_prokka/sample2:NODE_50_length_392_cov_0.600000_1 (length 81)
+sample2_prokka/sample2:NODE_53_length_383_cov_0.746094_1 (length 104)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::82 sources have 'strain' for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::82 sources have 'Genus species' for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 39 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::82 nucleotide Bioseqs are present
+sample2_prokka/sample2:NODE_1_length_17115_cov_466.372910 (length 17115, 100 gap)
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649 (length 15198)
+sample2_prokka/sample2:NODE_3_length_7148_cov_337.268195 (length 7148)
+sample2_prokka/sample2:NODE_4_length_4940_cov_443.500312 (length 4940)
+sample2_prokka/sample2:NODE_5_length_2255_cov_2.634398 (length 2255)
+sample2_prokka/sample2:NODE_6_length_2183_cov_2.428988 (length 2183)
+sample2_prokka/sample2:NODE_7_length_1658_cov_4.133246 (length 1658)
+sample2_prokka/sample2:NODE_8_length_1093_cov_291.265010 (length 1093)
+sample2_prokka/sample2:NODE_9_length_911_cov_1.123724 (length 911)
+sample2_prokka/sample2:NODE_10_length_851_cov_0.838398 (length 851)
+sample2_prokka/sample2:NODE_11_length_826_cov_1.204578 (length 826)
+sample2_prokka/sample2:NODE_12_length_810_cov_0.941435 (length 810)
+sample2_prokka/sample2:NODE_13_length_796_cov_1.467862 (length 796)
+sample2_prokka/sample2:NODE_14_length_724_cov_1.422111 (length 724)
+sample2_prokka/sample2:NODE_15_length_703_cov_1.164931 (length 703)
+sample2_prokka/sample2:NODE_16_length_622_cov_2.258586 (length 622)
+sample2_prokka/sample2:NODE_17_length_612_cov_1.255670 (length 612)
+sample2_prokka/sample2:NODE_18_length_586_cov_0.793028 (length 586)
+sample2_prokka/sample2:NODE_19_length_539_cov_1.502427 (length 539)
+sample2_prokka/sample2:NODE_20_length_525_cov_1.763819 (length 525)
+sample2_prokka/sample2:NODE_21_length_513_cov_1.222798 (length 513)
+sample2_prokka/sample2:NODE_22_length_513_cov_0.932642 (length 513)
+sample2_prokka/sample2:NODE_23_length_511_cov_0.479167 (length 511)
+sample2_prokka/sample2:NODE_24_length_510_cov_1.237598 (length 510)
+sample2_prokka/sample2:NODE_25_length_494_cov_0.899183 (length 494)
+sample2_prokka/sample2:NODE_26_length_465_cov_1.272189 (length 465)
+sample2_prokka/sample2:NODE_27_length_461_cov_0.736527 (length 461)
+sample2_prokka/sample2:NODE_28_length_453_cov_160.171779 (length 453)
+sample2_prokka/sample2:NODE_29_length_445_cov_0.666667 (length 445)
+sample2_prokka/sample2:NODE_30_length_443_cov_0.753165 (length 443)
+sample2_prokka/sample2:NODE_31_length_439_cov_0.750000 (length 439)
+sample2_prokka/sample2:NODE_32_length_439_cov_0.682692 (length 439)
+sample2_prokka/sample2:NODE_33_length_433_cov_1.405229 (length 433)
+sample2_prokka/sample2:NODE_34_length_431_cov_0.815789 (length 431)
+sample2_prokka/sample2:NODE_35_length_431_cov_0.776316 (length 431)
+sample2_prokka/sample2:NODE_36_length_421_cov_0.697279 (length 421)
+sample2_prokka/sample2:NODE_37_length_418_cov_1.580756 (length 418)
+sample2_prokka/sample2:NODE_38_length_417_cov_0.855172 (length 417)
+sample2_prokka/sample2:NODE_39_length_417_cov_0.672414 (length 417)
+sample2_prokka/sample2:NODE_40_length_409_cov_1.510638 (length 409)
+sample2_prokka/sample2:NODE_41_length_409_cov_0.755319 (length 409)
+sample2_prokka/sample2:NODE_42_length_404_cov_0.855596 (length 404)
+sample2_prokka/sample2:NODE_43_length_399_cov_0.900735 (length 399)
+sample2_prokka/sample2:NODE_44_length_397_cov_0.900000 (length 397)
+sample2_prokka/sample2:NODE_45_length_396_cov_0.858736 (length 396)
+sample2_prokka/sample2:NODE_46_length_395_cov_0.925373 (length 395)
+sample2_prokka/sample2:NODE_47_length_394_cov_0.921348 (length 394)
+sample2_prokka/sample2:NODE_48_length_393_cov_0.909774 (length 393)
+sample2_prokka/sample2:NODE_49_length_392_cov_0.705660 (length 392)
+sample2_prokka/sample2:NODE_50_length_392_cov_0.600000 (length 392)
+sample2_prokka/sample2:NODE_51_length_390_cov_1.794677 (length 390)
+sample2_prokka/sample2:NODE_52_length_389_cov_0.935115 (length 389)
+sample2_prokka/sample2:NODE_53_length_383_cov_0.746094 (length 383)
+sample2_prokka/sample2:NODE_54_length_380_cov_0.956522 (length 380)
+sample2_prokka/sample2:NODE_55_length_237_cov_26.609091 (length 237)
+sample2_prokka/sample2:NODE_56_length_207_cov_642.050000 (length 207)
+sample2_prokka/sample2:NODE_57_length_207_cov_95.162500 (length 207)
+sample2_prokka/sample2:NODE_58_length_206_cov_259.126582 (length 206)
+sample2_prokka/sample2:NODE_59_length_206_cov_51.126582 (length 206)
+sample2_prokka/sample2:NODE_60_length_201_cov_191.567568 (length 201)
+sample2_prokka/sample2:NODE_61_length_191_cov_83.437500 (length 191)
+sample2_prokka/sample2:NODE_62_length_191_cov_51.187500 (length 191)
+sample2_prokka/sample2:NODE_63_length_181_cov_85.351852 (length 181)
+sample2_prokka/sample2:NODE_64_length_181_cov_50.111111 (length 181)
+sample2_prokka/sample2:NODE_65_length_181_cov_34.685185 (length 181)
+sample2_prokka/sample2:NODE_66_length_181_cov_22.148148 (length 181)
+sample2_prokka/sample2:NODE_67_length_179_cov_17.192308 (length 179)
+sample2_prokka/sample2:NODE_68_length_176_cov_539.979592 (length 176)
+sample2_prokka/sample2:NODE_69_length_176_cov_103.816327 (length 176)
+sample2_prokka/sample2:NODE_70_length_175_cov_718.520833 (length 175)
+sample2_prokka/sample2:NODE_71_length_175_cov_72.250000 (length 175)
+sample2_prokka/sample2:NODE_72_length_175_cov_28.687500 (length 175)
+sample2_prokka/sample2:NODE_73_length_152_cov_712.120000 (length 152)
+sample2_prokka/sample2:NODE_74_length_152_cov_105.240000 (length 152)
+sample2_prokka/sample2:NODE_75_length_152_cov_82.280000 (length 152)
+sample2_prokka/sample2:NODE_76_length_145_cov_27.111111 (length 145)
+sample2_prokka/sample2:NODE_77_length_145_cov_21.666667 (length 145)
+sample2_prokka/sample2:NODE_78_length_134_cov_1088.428571 (length 134)
+sample2_prokka/sample2:NODE_79_length_134_cov_90.571429 (length 134)
+sample2_prokka/sample2:NODE_80_length_134_cov_7.857143 (length 134)
+sample2_prokka/sample2:NODE_81_length_128_cov_172.000000 (length 128)
+sample2_prokka/sample2:NODE_82_length_128_cov_151.000000 (length 128)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::39 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_1_length_17115_cov_466.372910:c770-594	DFJKPONM_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_1_length_17115_cov_466.372910:c1846-1469	DFJKPONM_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_1_length_17115_cov_466.372910:c2829-2368	DFJKPONM_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_1_length_17115_cov_466.372910:c6621-6265	DFJKPONM_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_1_length_17115_cov_466.372910:7626-7787	DFJKPONM_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_1_length_17115_cov_466.372910:9658-13779	DFJKPONM_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_2_length_15198_cov_4.975649:c6707-207	DFJKPONM_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_2_length_15198_cov_4.975649:c7027-6773	DFJKPONM_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_2_length_15198_cov_4.975649:c7475-7011	DFJKPONM_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_2_length_15198_cov_4.975649:c9594-7825	DFJKPONM_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_2_length_15198_cov_4.975649:c10579-9647	DFJKPONM_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_2_length_15198_cov_4.975649:c12190-11234	DFJKPONM_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_2_length_15198_cov_4.975649:c12919-12194	DFJKPONM_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_2_length_15198_cov_4.975649:c14127-12952	DFJKPONM_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_2_length_15198_cov_4.975649:c14718-14503	DFJKPONM_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_2_length_15198_cov_4.975649:c15166-14747	DFJKPONM_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_3_length_7148_cov_337.268195:c1563-313	DFJKPONM_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_3_length_7148_cov_337.268195:c1943-1578	DFJKPONM_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_3_length_7148_cov_337.268195:c2443-2078	DFJKPONM_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_3_length_7148_cov_337.268195:c2635-2450	DFJKPONM_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_3_length_7148_cov_337.268195:c3314-2646	DFJKPONM_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_3_length_7148_cov_337.268195:c4444-3617	DFJKPONM_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_3_length_7148_cov_337.268195:c7131-4453	DFJKPONM_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_4_length_4940_cov_443.500312:13-4863	DFJKPONM_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_5_length_2255_cov_2.634398:c993-646	DFJKPONM_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_5_length_2255_cov_2.634398:1655-1825	DFJKPONM_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_5_length_2255_cov_2.634398:1792-1998	DFJKPONM_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_6_length_2183_cov_2.428988:c1479-1375	DFJKPONM_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_7_length_1658_cov_4.133246:626-1135	DFJKPONM_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_10_length_851_cov_0.838398:c802-35	DFJKPONM_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_12_length_810_cov_0.941435:c529-170	DFJKPONM_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_14_length_724_cov_1.422111:237-497	DFJKPONM_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_17_length_612_cov_1.255670:c609-472	DFJKPONM_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_18_length_586_cov_0.793028:c211-41	DFJKPONM_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_33_length_433_cov_1.405229:49-393	DFJKPONM_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_37_length_418_cov_1.580756:c352-137	DFJKPONM_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_44_length_397_cov_0.900000:187-342	DFJKPONM_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_50_length_392_cov_0.600000:c369-124	DFJKPONM_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+sample2_prokka/sample2:CDS	hypothetical protein	NODE_53_length_383_cov_0.746094:c358-44	DFJKPONM_00039
+
+DiscRep_ALL:SHORT_CONTIG::22 contigs are shorter than 200 nt.
+sample2_prokka/sample2:NODE_61_length_191_cov_83.437500 (length 191)
+sample2_prokka/sample2:NODE_62_length_191_cov_51.187500 (length 191)
+sample2_prokka/sample2:NODE_63_length_181_cov_85.351852 (length 181)
+sample2_prokka/sample2:NODE_64_length_181_cov_50.111111 (length 181)
+sample2_prokka/sample2:NODE_65_length_181_cov_34.685185 (length 181)
+sample2_prokka/sample2:NODE_66_length_181_cov_22.148148 (length 181)
+sample2_prokka/sample2:NODE_67_length_179_cov_17.192308 (length 179)
+sample2_prokka/sample2:NODE_68_length_176_cov_539.979592 (length 176)
+sample2_prokka/sample2:NODE_69_length_176_cov_103.816327 (length 176)
+sample2_prokka/sample2:NODE_70_length_175_cov_718.520833 (length 175)
+sample2_prokka/sample2:NODE_71_length_175_cov_72.250000 (length 175)
+sample2_prokka/sample2:NODE_72_length_175_cov_28.687500 (length 175)
+sample2_prokka/sample2:NODE_73_length_152_cov_712.120000 (length 152)
+sample2_prokka/sample2:NODE_74_length_152_cov_105.240000 (length 152)
+sample2_prokka/sample2:NODE_75_length_152_cov_82.280000 (length 152)
+sample2_prokka/sample2:NODE_76_length_145_cov_27.111111 (length 145)
+sample2_prokka/sample2:NODE_77_length_145_cov_21.666667 (length 145)
+sample2_prokka/sample2:NODE_78_length_134_cov_1088.428571 (length 134)
+sample2_prokka/sample2:NODE_79_length_134_cov_90.571429 (length 134)
+sample2_prokka/sample2:NODE_80_length_134_cov_7.857143 (length 134)
+sample2_prokka/sample2:NODE_81_length_128_cov_172.000000 (length 128)
+sample2_prokka/sample2:NODE_82_length_128_cov_151.000000 (length 128)
+
+DiscRep_ALL:ZERO_BASECOUNT::6 sequences have a zero basecount for a nucleotide
+DiscRep_SUB:ZERO_BASECOUNT::2 sequences have no As
+sample2_prokka/sample2:NODE_81_length_128_cov_172.000000 (length 128)
+sample2_prokka/sample2:NODE_82_length_128_cov_151.000000 (length 128)
+
+DiscRep_SUB:ZERO_BASECOUNT::1 sequences have no Ts
+sample2_prokka/sample2:NODE_82_length_128_cov_151.000000 (length 128)
+
+DiscRep_SUB:ZERO_BASECOUNT::1 sequences have no Gs
+sample2_prokka/sample2:NODE_81_length_128_cov_172.000000 (length 128)
+
+DiscRep_SUB:ZERO_BASECOUNT::2 sequences have no Cs
+sample2_prokka/sample2:NODE_81_length_128_cov_172.000000 (length 128)
+sample2_prokka/sample2:NODE_82_length_128_cov_151.000000 (length 128)
+
+DiscRep_ALL:NO_ANNOTATION::65 bioseqs have no features
+sample2_prokka/sample2:NODE_8_length_1093_cov_291.265010 (length 1093)
+sample2_prokka/sample2:NODE_9_length_911_cov_1.123724 (length 911)
+sample2_prokka/sample2:NODE_11_length_826_cov_1.204578 (length 826)
+sample2_prokka/sample2:NODE_13_length_796_cov_1.467862 (length 796)
+sample2_prokka/sample2:NODE_15_length_703_cov_1.164931 (length 703)
+sample2_prokka/sample2:NODE_16_length_622_cov_2.258586 (length 622)
+sample2_prokka/sample2:NODE_19_length_539_cov_1.502427 (length 539)
+sample2_prokka/sample2:NODE_20_length_525_cov_1.763819 (length 525)
+sample2_prokka/sample2:NODE_21_length_513_cov_1.222798 (length 513)
+sample2_prokka/sample2:NODE_22_length_513_cov_0.932642 (length 513)
+sample2_prokka/sample2:NODE_23_length_511_cov_0.479167 (length 511)
+sample2_prokka/sample2:NODE_24_length_510_cov_1.237598 (length 510)
+sample2_prokka/sample2:NODE_25_length_494_cov_0.899183 (length 494)
+sample2_prokka/sample2:NODE_26_length_465_cov_1.272189 (length 465)
+sample2_prokka/sample2:NODE_27_length_461_cov_0.736527 (length 461)
+sample2_prokka/sample2:NODE_28_length_453_cov_160.171779 (length 453)
+sample2_prokka/sample2:NODE_29_length_445_cov_0.666667 (length 445)
+sample2_prokka/sample2:NODE_30_length_443_cov_0.753165 (length 443)
+sample2_prokka/sample2:NODE_31_length_439_cov_0.750000 (length 439)
+sample2_prokka/sample2:NODE_32_length_439_cov_0.682692 (length 439)
+sample2_prokka/sample2:NODE_34_length_431_cov_0.815789 (length 431)
+sample2_prokka/sample2:NODE_35_length_431_cov_0.776316 (length 431)
+sample2_prokka/sample2:NODE_36_length_421_cov_0.697279 (length 421)
+sample2_prokka/sample2:NODE_38_length_417_cov_0.855172 (length 417)
+sample2_prokka/sample2:NODE_39_length_417_cov_0.672414 (length 417)
+sample2_prokka/sample2:NODE_40_length_409_cov_1.510638 (length 409)
+sample2_prokka/sample2:NODE_41_length_409_cov_0.755319 (length 409)
+sample2_prokka/sample2:NODE_42_length_404_cov_0.855596 (length 404)
+sample2_prokka/sample2:NODE_43_length_399_cov_0.900735 (length 399)
+sample2_prokka/sample2:NODE_45_length_396_cov_0.858736 (length 396)
+sample2_prokka/sample2:NODE_46_length_395_cov_0.925373 (length 395)
+sample2_prokka/sample2:NODE_47_length_394_cov_0.921348 (length 394)
+sample2_prokka/sample2:NODE_48_length_393_cov_0.909774 (length 393)
+sample2_prokka/sample2:NODE_49_length_392_cov_0.705660 (length 392)
+sample2_prokka/sample2:NODE_51_length_390_cov_1.794677 (length 390)
+sample2_prokka/sample2:NODE_52_length_389_cov_0.935115 (length 389)
+sample2_prokka/sample2:NODE_54_length_380_cov_0.956522 (length 380)
+sample2_prokka/sample2:NODE_55_length_237_cov_26.609091 (length 237)
+sample2_prokka/sample2:NODE_56_length_207_cov_642.050000 (length 207)
+sample2_prokka/sample2:NODE_57_length_207_cov_95.162500 (length 207)
+sample2_prokka/sample2:NODE_58_length_206_cov_259.126582 (length 206)
+sample2_prokka/sample2:NODE_59_length_206_cov_51.126582 (length 206)
+sample2_prokka/sample2:NODE_60_length_201_cov_191.567568 (length 201)
+sample2_prokka/sample2:NODE_61_length_191_cov_83.437500 (length 191)
+sample2_prokka/sample2:NODE_62_length_191_cov_51.187500 (length 191)
+sample2_prokka/sample2:NODE_63_length_181_cov_85.351852 (length 181)
+sample2_prokka/sample2:NODE_64_length_181_cov_50.111111 (length 181)
+sample2_prokka/sample2:NODE_65_length_181_cov_34.685185 (length 181)
+sample2_prokka/sample2:NODE_66_length_181_cov_22.148148 (length 181)
+sample2_prokka/sample2:NODE_67_length_179_cov_17.192308 (length 179)
+sample2_prokka/sample2:NODE_68_length_176_cov_539.979592 (length 176)
+sample2_prokka/sample2:NODE_69_length_176_cov_103.816327 (length 176)
+sample2_prokka/sample2:NODE_70_length_175_cov_718.520833 (length 175)
+sample2_prokka/sample2:NODE_71_length_175_cov_72.250000 (length 175)
+sample2_prokka/sample2:NODE_72_length_175_cov_28.687500 (length 175)
+sample2_prokka/sample2:NODE_73_length_152_cov_712.120000 (length 152)
+sample2_prokka/sample2:NODE_74_length_152_cov_105.240000 (length 152)
+sample2_prokka/sample2:NODE_75_length_152_cov_82.280000 (length 152)
+sample2_prokka/sample2:NODE_76_length_145_cov_27.111111 (length 145)
+sample2_prokka/sample2:NODE_77_length_145_cov_21.666667 (length 145)
+sample2_prokka/sample2:NODE_78_length_134_cov_1088.428571 (length 134)
+sample2_prokka/sample2:NODE_79_length_134_cov_90.571429 (length 134)
+sample2_prokka/sample2:NODE_80_length_134_cov_7.857143 (length 134)
+sample2_prokka/sample2:NODE_81_length_128_cov_172.000000 (length 128)
+sample2_prokka/sample2:NODE_82_length_128_cov_151.000000 (length 128)
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::82 comment descriptors were found (all same)
+sample2_prokka/sample2:NODE_1_length_17115_cov_466.372910:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_3_length_7148_cov_337.268195:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_4_length_4940_cov_443.500312:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_5_length_2255_cov_2.634398:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_6_length_2183_cov_2.428988:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_7_length_1658_cov_4.133246:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_8_length_1093_cov_291.265010:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_9_length_911_cov_1.123724:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_10_length_851_cov_0.838398:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_11_length_826_cov_1.204578:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_12_length_810_cov_0.941435:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_13_length_796_cov_1.467862:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_14_length_724_cov_1.422111:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_15_length_703_cov_1.164931:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_16_length_622_cov_2.258586:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_17_length_612_cov_1.255670:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_18_length_586_cov_0.793028:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_19_length_539_cov_1.502427:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_20_length_525_cov_1.763819:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_21_length_513_cov_1.222798:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_22_length_513_cov_0.932642:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_23_length_511_cov_0.479167:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_24_length_510_cov_1.237598:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_25_length_494_cov_0.899183:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_26_length_465_cov_1.272189:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_27_length_461_cov_0.736527:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_28_length_453_cov_160.171779:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_29_length_445_cov_0.666667:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_30_length_443_cov_0.753165:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_31_length_439_cov_0.750000:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_32_length_439_cov_0.682692:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_33_length_433_cov_1.405229:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_34_length_431_cov_0.815789:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_35_length_431_cov_0.776316:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_36_length_421_cov_0.697279:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_37_length_418_cov_1.580756:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_38_length_417_cov_0.855172:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_39_length_417_cov_0.672414:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_40_length_409_cov_1.510638:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_41_length_409_cov_0.755319:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_42_length_404_cov_0.855596:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_43_length_399_cov_0.900735:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_44_length_397_cov_0.900000:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_45_length_396_cov_0.858736:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_46_length_395_cov_0.925373:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_47_length_394_cov_0.921348:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_48_length_393_cov_0.909774:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_49_length_392_cov_0.705660:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_50_length_392_cov_0.600000:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_51_length_390_cov_1.794677:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_52_length_389_cov_0.935115:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_53_length_383_cov_0.746094:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_54_length_380_cov_0.956522:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_55_length_237_cov_26.609091:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_56_length_207_cov_642.050000:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_57_length_207_cov_95.162500:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_58_length_206_cov_259.126582:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_59_length_206_cov_51.126582:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_60_length_201_cov_191.567568:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_61_length_191_cov_83.437500:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_62_length_191_cov_51.187500:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_63_length_181_cov_85.351852:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_64_length_181_cov_50.111111:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_65_length_181_cov_34.685185:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_66_length_181_cov_22.148148:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_67_length_179_cov_17.192308:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_68_length_176_cov_539.979592:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_69_length_176_cov_103.816327:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_70_length_175_cov_718.520833:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_71_length_175_cov_72.250000:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_72_length_175_cov_28.687500:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_73_length_152_cov_712.120000:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_74_length_152_cov_105.240000:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_75_length_152_cov_82.280000:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_76_length_145_cov_27.111111:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_77_length_145_cov_21.666667:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_78_length_134_cov_1088.428571:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_79_length_134_cov_90.571429:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_80_length_134_cov_7.857143:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_81_length_128_cov_172.000000:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+sample2_prokka/sample2:NODE_82_length_128_cov_151.000000:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::2 protein sequences are shorter than 50 aa.
+sample2_prokka/sample2:NODE_6_length_2183_cov_2.428988_1 (length 34)
+sample2_prokka/sample2:NODE_17_length_612_cov_1.255670_1 (length 45)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::82 bioseqs are missing GenomeAssembly structured comments
+sample2_prokka/sample2:NODE_1_length_17115_cov_466.372910 (length 17115, 100 gap)
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649 (length 15198)
+sample2_prokka/sample2:NODE_3_length_7148_cov_337.268195 (length 7148)
+sample2_prokka/sample2:NODE_4_length_4940_cov_443.500312 (length 4940)
+sample2_prokka/sample2:NODE_5_length_2255_cov_2.634398 (length 2255)
+sample2_prokka/sample2:NODE_6_length_2183_cov_2.428988 (length 2183)
+sample2_prokka/sample2:NODE_7_length_1658_cov_4.133246 (length 1658)
+sample2_prokka/sample2:NODE_8_length_1093_cov_291.265010 (length 1093)
+sample2_prokka/sample2:NODE_9_length_911_cov_1.123724 (length 911)
+sample2_prokka/sample2:NODE_10_length_851_cov_0.838398 (length 851)
+sample2_prokka/sample2:NODE_11_length_826_cov_1.204578 (length 826)
+sample2_prokka/sample2:NODE_12_length_810_cov_0.941435 (length 810)
+sample2_prokka/sample2:NODE_13_length_796_cov_1.467862 (length 796)
+sample2_prokka/sample2:NODE_14_length_724_cov_1.422111 (length 724)
+sample2_prokka/sample2:NODE_15_length_703_cov_1.164931 (length 703)
+sample2_prokka/sample2:NODE_16_length_622_cov_2.258586 (length 622)
+sample2_prokka/sample2:NODE_17_length_612_cov_1.255670 (length 612)
+sample2_prokka/sample2:NODE_18_length_586_cov_0.793028 (length 586)
+sample2_prokka/sample2:NODE_19_length_539_cov_1.502427 (length 539)
+sample2_prokka/sample2:NODE_20_length_525_cov_1.763819 (length 525)
+sample2_prokka/sample2:NODE_21_length_513_cov_1.222798 (length 513)
+sample2_prokka/sample2:NODE_22_length_513_cov_0.932642 (length 513)
+sample2_prokka/sample2:NODE_23_length_511_cov_0.479167 (length 511)
+sample2_prokka/sample2:NODE_24_length_510_cov_1.237598 (length 510)
+sample2_prokka/sample2:NODE_25_length_494_cov_0.899183 (length 494)
+sample2_prokka/sample2:NODE_26_length_465_cov_1.272189 (length 465)
+sample2_prokka/sample2:NODE_27_length_461_cov_0.736527 (length 461)
+sample2_prokka/sample2:NODE_28_length_453_cov_160.171779 (length 453)
+sample2_prokka/sample2:NODE_29_length_445_cov_0.666667 (length 445)
+sample2_prokka/sample2:NODE_30_length_443_cov_0.753165 (length 443)
+sample2_prokka/sample2:NODE_31_length_439_cov_0.750000 (length 439)
+sample2_prokka/sample2:NODE_32_length_439_cov_0.682692 (length 439)
+sample2_prokka/sample2:NODE_33_length_433_cov_1.405229 (length 433)
+sample2_prokka/sample2:NODE_34_length_431_cov_0.815789 (length 431)
+sample2_prokka/sample2:NODE_35_length_431_cov_0.776316 (length 431)
+sample2_prokka/sample2:NODE_36_length_421_cov_0.697279 (length 421)
+sample2_prokka/sample2:NODE_37_length_418_cov_1.580756 (length 418)
+sample2_prokka/sample2:NODE_38_length_417_cov_0.855172 (length 417)
+sample2_prokka/sample2:NODE_39_length_417_cov_0.672414 (length 417)
+sample2_prokka/sample2:NODE_40_length_409_cov_1.510638 (length 409)
+sample2_prokka/sample2:NODE_41_length_409_cov_0.755319 (length 409)
+sample2_prokka/sample2:NODE_42_length_404_cov_0.855596 (length 404)
+sample2_prokka/sample2:NODE_43_length_399_cov_0.900735 (length 399)
+sample2_prokka/sample2:NODE_44_length_397_cov_0.900000 (length 397)
+sample2_prokka/sample2:NODE_45_length_396_cov_0.858736 (length 396)
+sample2_prokka/sample2:NODE_46_length_395_cov_0.925373 (length 395)
+sample2_prokka/sample2:NODE_47_length_394_cov_0.921348 (length 394)
+sample2_prokka/sample2:NODE_48_length_393_cov_0.909774 (length 393)
+sample2_prokka/sample2:NODE_49_length_392_cov_0.705660 (length 392)
+sample2_prokka/sample2:NODE_50_length_392_cov_0.600000 (length 392)
+sample2_prokka/sample2:NODE_51_length_390_cov_1.794677 (length 390)
+sample2_prokka/sample2:NODE_52_length_389_cov_0.935115 (length 389)
+sample2_prokka/sample2:NODE_53_length_383_cov_0.746094 (length 383)
+sample2_prokka/sample2:NODE_54_length_380_cov_0.956522 (length 380)
+sample2_prokka/sample2:NODE_55_length_237_cov_26.609091 (length 237)
+sample2_prokka/sample2:NODE_56_length_207_cov_642.050000 (length 207)
+sample2_prokka/sample2:NODE_57_length_207_cov_95.162500 (length 207)
+sample2_prokka/sample2:NODE_58_length_206_cov_259.126582 (length 206)
+sample2_prokka/sample2:NODE_59_length_206_cov_51.126582 (length 206)
+sample2_prokka/sample2:NODE_60_length_201_cov_191.567568 (length 201)
+sample2_prokka/sample2:NODE_61_length_191_cov_83.437500 (length 191)
+sample2_prokka/sample2:NODE_62_length_191_cov_51.187500 (length 191)
+sample2_prokka/sample2:NODE_63_length_181_cov_85.351852 (length 181)
+sample2_prokka/sample2:NODE_64_length_181_cov_50.111111 (length 181)
+sample2_prokka/sample2:NODE_65_length_181_cov_34.685185 (length 181)
+sample2_prokka/sample2:NODE_66_length_181_cov_22.148148 (length 181)
+sample2_prokka/sample2:NODE_67_length_179_cov_17.192308 (length 179)
+sample2_prokka/sample2:NODE_68_length_176_cov_539.979592 (length 176)
+sample2_prokka/sample2:NODE_69_length_176_cov_103.816327 (length 176)
+sample2_prokka/sample2:NODE_70_length_175_cov_718.520833 (length 175)
+sample2_prokka/sample2:NODE_71_length_175_cov_72.250000 (length 175)
+sample2_prokka/sample2:NODE_72_length_175_cov_28.687500 (length 175)
+sample2_prokka/sample2:NODE_73_length_152_cov_712.120000 (length 152)
+sample2_prokka/sample2:NODE_74_length_152_cov_105.240000 (length 152)
+sample2_prokka/sample2:NODE_75_length_152_cov_82.280000 (length 152)
+sample2_prokka/sample2:NODE_76_length_145_cov_27.111111 (length 145)
+sample2_prokka/sample2:NODE_77_length_145_cov_21.666667 (length 145)
+sample2_prokka/sample2:NODE_78_length_134_cov_1088.428571 (length 134)
+sample2_prokka/sample2:NODE_79_length_134_cov_90.571429 (length 134)
+sample2_prokka/sample2:NODE_80_length_134_cov_7.857143 (length 134)
+sample2_prokka/sample2:NODE_81_length_128_cov_172.000000 (length 128)
+sample2_prokka/sample2:NODE_82_length_128_cov_151.000000 (length 128)
+
+DiscRep_ALL:SHORT_SEQUENCES_200::22 sequences are shorter than 200 bp.
+sample2_prokka/sample2:NODE_61_length_191_cov_83.437500 (length 191)
+sample2_prokka/sample2:NODE_62_length_191_cov_51.187500 (length 191)
+sample2_prokka/sample2:NODE_63_length_181_cov_85.351852 (length 181)
+sample2_prokka/sample2:NODE_64_length_181_cov_50.111111 (length 181)
+sample2_prokka/sample2:NODE_65_length_181_cov_34.685185 (length 181)
+sample2_prokka/sample2:NODE_66_length_181_cov_22.148148 (length 181)
+sample2_prokka/sample2:NODE_67_length_179_cov_17.192308 (length 179)
+sample2_prokka/sample2:NODE_68_length_176_cov_539.979592 (length 176)
+sample2_prokka/sample2:NODE_69_length_176_cov_103.816327 (length 176)
+sample2_prokka/sample2:NODE_70_length_175_cov_718.520833 (length 175)
+sample2_prokka/sample2:NODE_71_length_175_cov_72.250000 (length 175)
+sample2_prokka/sample2:NODE_72_length_175_cov_28.687500 (length 175)
+sample2_prokka/sample2:NODE_73_length_152_cov_712.120000 (length 152)
+sample2_prokka/sample2:NODE_74_length_152_cov_105.240000 (length 152)
+sample2_prokka/sample2:NODE_75_length_152_cov_82.280000 (length 152)
+sample2_prokka/sample2:NODE_76_length_145_cov_27.111111 (length 145)
+sample2_prokka/sample2:NODE_77_length_145_cov_21.666667 (length 145)
+sample2_prokka/sample2:NODE_78_length_134_cov_1088.428571 (length 134)
+sample2_prokka/sample2:NODE_79_length_134_cov_90.571429 (length 134)
+sample2_prokka/sample2:NODE_80_length_134_cov_7.857143 (length 134)
+sample2_prokka/sample2:NODE_81_length_128_cov_172.000000 (length 128)
+sample2_prokka/sample2:NODE_82_length_128_cov_151.000000 (length 128)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::82 molecule types are not set as mRNA.
+sample2_prokka/sample2:NODE_1_length_17115_cov_466.372910 (length 17115, 100 gap)
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649 (length 15198)
+sample2_prokka/sample2:NODE_3_length_7148_cov_337.268195 (length 7148)
+sample2_prokka/sample2:NODE_4_length_4940_cov_443.500312 (length 4940)
+sample2_prokka/sample2:NODE_5_length_2255_cov_2.634398 (length 2255)
+sample2_prokka/sample2:NODE_6_length_2183_cov_2.428988 (length 2183)
+sample2_prokka/sample2:NODE_7_length_1658_cov_4.133246 (length 1658)
+sample2_prokka/sample2:NODE_8_length_1093_cov_291.265010 (length 1093)
+sample2_prokka/sample2:NODE_9_length_911_cov_1.123724 (length 911)
+sample2_prokka/sample2:NODE_10_length_851_cov_0.838398 (length 851)
+sample2_prokka/sample2:NODE_11_length_826_cov_1.204578 (length 826)
+sample2_prokka/sample2:NODE_12_length_810_cov_0.941435 (length 810)
+sample2_prokka/sample2:NODE_13_length_796_cov_1.467862 (length 796)
+sample2_prokka/sample2:NODE_14_length_724_cov_1.422111 (length 724)
+sample2_prokka/sample2:NODE_15_length_703_cov_1.164931 (length 703)
+sample2_prokka/sample2:NODE_16_length_622_cov_2.258586 (length 622)
+sample2_prokka/sample2:NODE_17_length_612_cov_1.255670 (length 612)
+sample2_prokka/sample2:NODE_18_length_586_cov_0.793028 (length 586)
+sample2_prokka/sample2:NODE_19_length_539_cov_1.502427 (length 539)
+sample2_prokka/sample2:NODE_20_length_525_cov_1.763819 (length 525)
+sample2_prokka/sample2:NODE_21_length_513_cov_1.222798 (length 513)
+sample2_prokka/sample2:NODE_22_length_513_cov_0.932642 (length 513)
+sample2_prokka/sample2:NODE_23_length_511_cov_0.479167 (length 511)
+sample2_prokka/sample2:NODE_24_length_510_cov_1.237598 (length 510)
+sample2_prokka/sample2:NODE_25_length_494_cov_0.899183 (length 494)
+sample2_prokka/sample2:NODE_26_length_465_cov_1.272189 (length 465)
+sample2_prokka/sample2:NODE_27_length_461_cov_0.736527 (length 461)
+sample2_prokka/sample2:NODE_28_length_453_cov_160.171779 (length 453)
+sample2_prokka/sample2:NODE_29_length_445_cov_0.666667 (length 445)
+sample2_prokka/sample2:NODE_30_length_443_cov_0.753165 (length 443)
+sample2_prokka/sample2:NODE_31_length_439_cov_0.750000 (length 439)
+sample2_prokka/sample2:NODE_32_length_439_cov_0.682692 (length 439)
+sample2_prokka/sample2:NODE_33_length_433_cov_1.405229 (length 433)
+sample2_prokka/sample2:NODE_34_length_431_cov_0.815789 (length 431)
+sample2_prokka/sample2:NODE_35_length_431_cov_0.776316 (length 431)
+sample2_prokka/sample2:NODE_36_length_421_cov_0.697279 (length 421)
+sample2_prokka/sample2:NODE_37_length_418_cov_1.580756 (length 418)
+sample2_prokka/sample2:NODE_38_length_417_cov_0.855172 (length 417)
+sample2_prokka/sample2:NODE_39_length_417_cov_0.672414 (length 417)
+sample2_prokka/sample2:NODE_40_length_409_cov_1.510638 (length 409)
+sample2_prokka/sample2:NODE_41_length_409_cov_0.755319 (length 409)
+sample2_prokka/sample2:NODE_42_length_404_cov_0.855596 (length 404)
+sample2_prokka/sample2:NODE_43_length_399_cov_0.900735 (length 399)
+sample2_prokka/sample2:NODE_44_length_397_cov_0.900000 (length 397)
+sample2_prokka/sample2:NODE_45_length_396_cov_0.858736 (length 396)
+sample2_prokka/sample2:NODE_46_length_395_cov_0.925373 (length 395)
+sample2_prokka/sample2:NODE_47_length_394_cov_0.921348 (length 394)
+sample2_prokka/sample2:NODE_48_length_393_cov_0.909774 (length 393)
+sample2_prokka/sample2:NODE_49_length_392_cov_0.705660 (length 392)
+sample2_prokka/sample2:NODE_50_length_392_cov_0.600000 (length 392)
+sample2_prokka/sample2:NODE_51_length_390_cov_1.794677 (length 390)
+sample2_prokka/sample2:NODE_52_length_389_cov_0.935115 (length 389)
+sample2_prokka/sample2:NODE_53_length_383_cov_0.746094 (length 383)
+sample2_prokka/sample2:NODE_54_length_380_cov_0.956522 (length 380)
+sample2_prokka/sample2:NODE_55_length_237_cov_26.609091 (length 237)
+sample2_prokka/sample2:NODE_56_length_207_cov_642.050000 (length 207)
+sample2_prokka/sample2:NODE_57_length_207_cov_95.162500 (length 207)
+sample2_prokka/sample2:NODE_58_length_206_cov_259.126582 (length 206)
+sample2_prokka/sample2:NODE_59_length_206_cov_51.126582 (length 206)
+sample2_prokka/sample2:NODE_60_length_201_cov_191.567568 (length 201)
+sample2_prokka/sample2:NODE_61_length_191_cov_83.437500 (length 191)
+sample2_prokka/sample2:NODE_62_length_191_cov_51.187500 (length 191)
+sample2_prokka/sample2:NODE_63_length_181_cov_85.351852 (length 181)
+sample2_prokka/sample2:NODE_64_length_181_cov_50.111111 (length 181)
+sample2_prokka/sample2:NODE_65_length_181_cov_34.685185 (length 181)
+sample2_prokka/sample2:NODE_66_length_181_cov_22.148148 (length 181)
+sample2_prokka/sample2:NODE_67_length_179_cov_17.192308 (length 179)
+sample2_prokka/sample2:NODE_68_length_176_cov_539.979592 (length 176)
+sample2_prokka/sample2:NODE_69_length_176_cov_103.816327 (length 176)
+sample2_prokka/sample2:NODE_70_length_175_cov_718.520833 (length 175)
+sample2_prokka/sample2:NODE_71_length_175_cov_72.250000 (length 175)
+sample2_prokka/sample2:NODE_72_length_175_cov_28.687500 (length 175)
+sample2_prokka/sample2:NODE_73_length_152_cov_712.120000 (length 152)
+sample2_prokka/sample2:NODE_74_length_152_cov_105.240000 (length 152)
+sample2_prokka/sample2:NODE_75_length_152_cov_82.280000 (length 152)
+sample2_prokka/sample2:NODE_76_length_145_cov_27.111111 (length 145)
+sample2_prokka/sample2:NODE_77_length_145_cov_21.666667 (length 145)
+sample2_prokka/sample2:NODE_78_length_134_cov_1088.428571 (length 134)
+sample2_prokka/sample2:NODE_79_length_134_cov_90.571429 (length 134)
+sample2_prokka/sample2:NODE_80_length_134_cov_7.857143 (length 134)
+sample2_prokka/sample2:NODE_81_length_128_cov_172.000000 (length 128)
+sample2_prokka/sample2:NODE_82_length_128_cov_151.000000 (length 128)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::82 technique are not set as TSA
+sample2_prokka/sample2:NODE_1_length_17115_cov_466.372910 (length 17115, 100 gap)
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649 (length 15198)
+sample2_prokka/sample2:NODE_3_length_7148_cov_337.268195 (length 7148)
+sample2_prokka/sample2:NODE_4_length_4940_cov_443.500312 (length 4940)
+sample2_prokka/sample2:NODE_5_length_2255_cov_2.634398 (length 2255)
+sample2_prokka/sample2:NODE_6_length_2183_cov_2.428988 (length 2183)
+sample2_prokka/sample2:NODE_7_length_1658_cov_4.133246 (length 1658)
+sample2_prokka/sample2:NODE_8_length_1093_cov_291.265010 (length 1093)
+sample2_prokka/sample2:NODE_9_length_911_cov_1.123724 (length 911)
+sample2_prokka/sample2:NODE_10_length_851_cov_0.838398 (length 851)
+sample2_prokka/sample2:NODE_11_length_826_cov_1.204578 (length 826)
+sample2_prokka/sample2:NODE_12_length_810_cov_0.941435 (length 810)
+sample2_prokka/sample2:NODE_13_length_796_cov_1.467862 (length 796)
+sample2_prokka/sample2:NODE_14_length_724_cov_1.422111 (length 724)
+sample2_prokka/sample2:NODE_15_length_703_cov_1.164931 (length 703)
+sample2_prokka/sample2:NODE_16_length_622_cov_2.258586 (length 622)
+sample2_prokka/sample2:NODE_17_length_612_cov_1.255670 (length 612)
+sample2_prokka/sample2:NODE_18_length_586_cov_0.793028 (length 586)
+sample2_prokka/sample2:NODE_19_length_539_cov_1.502427 (length 539)
+sample2_prokka/sample2:NODE_20_length_525_cov_1.763819 (length 525)
+sample2_prokka/sample2:NODE_21_length_513_cov_1.222798 (length 513)
+sample2_prokka/sample2:NODE_22_length_513_cov_0.932642 (length 513)
+sample2_prokka/sample2:NODE_23_length_511_cov_0.479167 (length 511)
+sample2_prokka/sample2:NODE_24_length_510_cov_1.237598 (length 510)
+sample2_prokka/sample2:NODE_25_length_494_cov_0.899183 (length 494)
+sample2_prokka/sample2:NODE_26_length_465_cov_1.272189 (length 465)
+sample2_prokka/sample2:NODE_27_length_461_cov_0.736527 (length 461)
+sample2_prokka/sample2:NODE_28_length_453_cov_160.171779 (length 453)
+sample2_prokka/sample2:NODE_29_length_445_cov_0.666667 (length 445)
+sample2_prokka/sample2:NODE_30_length_443_cov_0.753165 (length 443)
+sample2_prokka/sample2:NODE_31_length_439_cov_0.750000 (length 439)
+sample2_prokka/sample2:NODE_32_length_439_cov_0.682692 (length 439)
+sample2_prokka/sample2:NODE_33_length_433_cov_1.405229 (length 433)
+sample2_prokka/sample2:NODE_34_length_431_cov_0.815789 (length 431)
+sample2_prokka/sample2:NODE_35_length_431_cov_0.776316 (length 431)
+sample2_prokka/sample2:NODE_36_length_421_cov_0.697279 (length 421)
+sample2_prokka/sample2:NODE_37_length_418_cov_1.580756 (length 418)
+sample2_prokka/sample2:NODE_38_length_417_cov_0.855172 (length 417)
+sample2_prokka/sample2:NODE_39_length_417_cov_0.672414 (length 417)
+sample2_prokka/sample2:NODE_40_length_409_cov_1.510638 (length 409)
+sample2_prokka/sample2:NODE_41_length_409_cov_0.755319 (length 409)
+sample2_prokka/sample2:NODE_42_length_404_cov_0.855596 (length 404)
+sample2_prokka/sample2:NODE_43_length_399_cov_0.900735 (length 399)
+sample2_prokka/sample2:NODE_44_length_397_cov_0.900000 (length 397)
+sample2_prokka/sample2:NODE_45_length_396_cov_0.858736 (length 396)
+sample2_prokka/sample2:NODE_46_length_395_cov_0.925373 (length 395)
+sample2_prokka/sample2:NODE_47_length_394_cov_0.921348 (length 394)
+sample2_prokka/sample2:NODE_48_length_393_cov_0.909774 (length 393)
+sample2_prokka/sample2:NODE_49_length_392_cov_0.705660 (length 392)
+sample2_prokka/sample2:NODE_50_length_392_cov_0.600000 (length 392)
+sample2_prokka/sample2:NODE_51_length_390_cov_1.794677 (length 390)
+sample2_prokka/sample2:NODE_52_length_389_cov_0.935115 (length 389)
+sample2_prokka/sample2:NODE_53_length_383_cov_0.746094 (length 383)
+sample2_prokka/sample2:NODE_54_length_380_cov_0.956522 (length 380)
+sample2_prokka/sample2:NODE_55_length_237_cov_26.609091 (length 237)
+sample2_prokka/sample2:NODE_56_length_207_cov_642.050000 (length 207)
+sample2_prokka/sample2:NODE_57_length_207_cov_95.162500 (length 207)
+sample2_prokka/sample2:NODE_58_length_206_cov_259.126582 (length 206)
+sample2_prokka/sample2:NODE_59_length_206_cov_51.126582 (length 206)
+sample2_prokka/sample2:NODE_60_length_201_cov_191.567568 (length 201)
+sample2_prokka/sample2:NODE_61_length_191_cov_83.437500 (length 191)
+sample2_prokka/sample2:NODE_62_length_191_cov_51.187500 (length 191)
+sample2_prokka/sample2:NODE_63_length_181_cov_85.351852 (length 181)
+sample2_prokka/sample2:NODE_64_length_181_cov_50.111111 (length 181)
+sample2_prokka/sample2:NODE_65_length_181_cov_34.685185 (length 181)
+sample2_prokka/sample2:NODE_66_length_181_cov_22.148148 (length 181)
+sample2_prokka/sample2:NODE_67_length_179_cov_17.192308 (length 179)
+sample2_prokka/sample2:NODE_68_length_176_cov_539.979592 (length 176)
+sample2_prokka/sample2:NODE_69_length_176_cov_103.816327 (length 176)
+sample2_prokka/sample2:NODE_70_length_175_cov_718.520833 (length 175)
+sample2_prokka/sample2:NODE_71_length_175_cov_72.250000 (length 175)
+sample2_prokka/sample2:NODE_72_length_175_cov_28.687500 (length 175)
+sample2_prokka/sample2:NODE_73_length_152_cov_712.120000 (length 152)
+sample2_prokka/sample2:NODE_74_length_152_cov_105.240000 (length 152)
+sample2_prokka/sample2:NODE_75_length_152_cov_82.280000 (length 152)
+sample2_prokka/sample2:NODE_76_length_145_cov_27.111111 (length 145)
+sample2_prokka/sample2:NODE_77_length_145_cov_21.666667 (length 145)
+sample2_prokka/sample2:NODE_78_length_134_cov_1088.428571 (length 134)
+sample2_prokka/sample2:NODE_79_length_134_cov_90.571429 (length 134)
+sample2_prokka/sample2:NODE_80_length_134_cov_7.857143 (length 134)
+sample2_prokka/sample2:NODE_81_length_128_cov_172.000000 (length 128)
+sample2_prokka/sample2:NODE_82_length_128_cov_151.000000 (length 128)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::82 sequences do not include structured comments.
+sample2_prokka/sample2:NODE_1_length_17115_cov_466.372910 (length 17115, 100 gap)
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649 (length 15198)
+sample2_prokka/sample2:NODE_3_length_7148_cov_337.268195 (length 7148)
+sample2_prokka/sample2:NODE_4_length_4940_cov_443.500312 (length 4940)
+sample2_prokka/sample2:NODE_5_length_2255_cov_2.634398 (length 2255)
+sample2_prokka/sample2:NODE_6_length_2183_cov_2.428988 (length 2183)
+sample2_prokka/sample2:NODE_7_length_1658_cov_4.133246 (length 1658)
+sample2_prokka/sample2:NODE_8_length_1093_cov_291.265010 (length 1093)
+sample2_prokka/sample2:NODE_9_length_911_cov_1.123724 (length 911)
+sample2_prokka/sample2:NODE_10_length_851_cov_0.838398 (length 851)
+sample2_prokka/sample2:NODE_11_length_826_cov_1.204578 (length 826)
+sample2_prokka/sample2:NODE_12_length_810_cov_0.941435 (length 810)
+sample2_prokka/sample2:NODE_13_length_796_cov_1.467862 (length 796)
+sample2_prokka/sample2:NODE_14_length_724_cov_1.422111 (length 724)
+sample2_prokka/sample2:NODE_15_length_703_cov_1.164931 (length 703)
+sample2_prokka/sample2:NODE_16_length_622_cov_2.258586 (length 622)
+sample2_prokka/sample2:NODE_17_length_612_cov_1.255670 (length 612)
+sample2_prokka/sample2:NODE_18_length_586_cov_0.793028 (length 586)
+sample2_prokka/sample2:NODE_19_length_539_cov_1.502427 (length 539)
+sample2_prokka/sample2:NODE_20_length_525_cov_1.763819 (length 525)
+sample2_prokka/sample2:NODE_21_length_513_cov_1.222798 (length 513)
+sample2_prokka/sample2:NODE_22_length_513_cov_0.932642 (length 513)
+sample2_prokka/sample2:NODE_23_length_511_cov_0.479167 (length 511)
+sample2_prokka/sample2:NODE_24_length_510_cov_1.237598 (length 510)
+sample2_prokka/sample2:NODE_25_length_494_cov_0.899183 (length 494)
+sample2_prokka/sample2:NODE_26_length_465_cov_1.272189 (length 465)
+sample2_prokka/sample2:NODE_27_length_461_cov_0.736527 (length 461)
+sample2_prokka/sample2:NODE_28_length_453_cov_160.171779 (length 453)
+sample2_prokka/sample2:NODE_29_length_445_cov_0.666667 (length 445)
+sample2_prokka/sample2:NODE_30_length_443_cov_0.753165 (length 443)
+sample2_prokka/sample2:NODE_31_length_439_cov_0.750000 (length 439)
+sample2_prokka/sample2:NODE_32_length_439_cov_0.682692 (length 439)
+sample2_prokka/sample2:NODE_33_length_433_cov_1.405229 (length 433)
+sample2_prokka/sample2:NODE_34_length_431_cov_0.815789 (length 431)
+sample2_prokka/sample2:NODE_35_length_431_cov_0.776316 (length 431)
+sample2_prokka/sample2:NODE_36_length_421_cov_0.697279 (length 421)
+sample2_prokka/sample2:NODE_37_length_418_cov_1.580756 (length 418)
+sample2_prokka/sample2:NODE_38_length_417_cov_0.855172 (length 417)
+sample2_prokka/sample2:NODE_39_length_417_cov_0.672414 (length 417)
+sample2_prokka/sample2:NODE_40_length_409_cov_1.510638 (length 409)
+sample2_prokka/sample2:NODE_41_length_409_cov_0.755319 (length 409)
+sample2_prokka/sample2:NODE_42_length_404_cov_0.855596 (length 404)
+sample2_prokka/sample2:NODE_43_length_399_cov_0.900735 (length 399)
+sample2_prokka/sample2:NODE_44_length_397_cov_0.900000 (length 397)
+sample2_prokka/sample2:NODE_45_length_396_cov_0.858736 (length 396)
+sample2_prokka/sample2:NODE_46_length_395_cov_0.925373 (length 395)
+sample2_prokka/sample2:NODE_47_length_394_cov_0.921348 (length 394)
+sample2_prokka/sample2:NODE_48_length_393_cov_0.909774 (length 393)
+sample2_prokka/sample2:NODE_49_length_392_cov_0.705660 (length 392)
+sample2_prokka/sample2:NODE_50_length_392_cov_0.600000 (length 392)
+sample2_prokka/sample2:NODE_51_length_390_cov_1.794677 (length 390)
+sample2_prokka/sample2:NODE_52_length_389_cov_0.935115 (length 389)
+sample2_prokka/sample2:NODE_53_length_383_cov_0.746094 (length 383)
+sample2_prokka/sample2:NODE_54_length_380_cov_0.956522 (length 380)
+sample2_prokka/sample2:NODE_55_length_237_cov_26.609091 (length 237)
+sample2_prokka/sample2:NODE_56_length_207_cov_642.050000 (length 207)
+sample2_prokka/sample2:NODE_57_length_207_cov_95.162500 (length 207)
+sample2_prokka/sample2:NODE_58_length_206_cov_259.126582 (length 206)
+sample2_prokka/sample2:NODE_59_length_206_cov_51.126582 (length 206)
+sample2_prokka/sample2:NODE_60_length_201_cov_191.567568 (length 201)
+sample2_prokka/sample2:NODE_61_length_191_cov_83.437500 (length 191)
+sample2_prokka/sample2:NODE_62_length_191_cov_51.187500 (length 191)
+sample2_prokka/sample2:NODE_63_length_181_cov_85.351852 (length 181)
+sample2_prokka/sample2:NODE_64_length_181_cov_50.111111 (length 181)
+sample2_prokka/sample2:NODE_65_length_181_cov_34.685185 (length 181)
+sample2_prokka/sample2:NODE_66_length_181_cov_22.148148 (length 181)
+sample2_prokka/sample2:NODE_67_length_179_cov_17.192308 (length 179)
+sample2_prokka/sample2:NODE_68_length_176_cov_539.979592 (length 176)
+sample2_prokka/sample2:NODE_69_length_176_cov_103.816327 (length 176)
+sample2_prokka/sample2:NODE_70_length_175_cov_718.520833 (length 175)
+sample2_prokka/sample2:NODE_71_length_175_cov_72.250000 (length 175)
+sample2_prokka/sample2:NODE_72_length_175_cov_28.687500 (length 175)
+sample2_prokka/sample2:NODE_73_length_152_cov_712.120000 (length 152)
+sample2_prokka/sample2:NODE_74_length_152_cov_105.240000 (length 152)
+sample2_prokka/sample2:NODE_75_length_152_cov_82.280000 (length 152)
+sample2_prokka/sample2:NODE_76_length_145_cov_27.111111 (length 145)
+sample2_prokka/sample2:NODE_77_length_145_cov_21.666667 (length 145)
+sample2_prokka/sample2:NODE_78_length_134_cov_1088.428571 (length 134)
+sample2_prokka/sample2:NODE_79_length_134_cov_90.571429 (length 134)
+sample2_prokka/sample2:NODE_80_length_134_cov_7.857143 (length 134)
+sample2_prokka/sample2:NODE_81_length_128_cov_172.000000 (length 128)
+sample2_prokka/sample2:NODE_82_length_128_cov_151.000000 (length 128)
+
+DiscRep_ALL:MISSING_PROJECT::121 sequences do not include project.
+sample2_prokka/sample2:NODE_1_length_17115_cov_466.372910 (length 17115, 100 gap)
+sample2_prokka/sample2:NODE_1_length_17115_cov_466.372910_1 (length 58)
+sample2_prokka/sample2:NODE_1_length_17115_cov_466.372910_2 (length 125)
+sample2_prokka/sample2:NODE_1_length_17115_cov_466.372910_3 (length 153)
+sample2_prokka/sample2:NODE_1_length_17115_cov_466.372910_4 (length 118)
+sample2_prokka/sample2:NODE_1_length_17115_cov_466.372910_5 (length 53)
+sample2_prokka/sample2:NODE_1_length_17115_cov_466.372910_6 (length 1373)
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649 (length 15198)
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649_1 (length 2166)
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649_2 (length 84)
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649_3 (length 154)
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649_4 (length 589)
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649_5 (length 310)
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649_6 (length 318)
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649_7 (length 241)
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649_8 (length 391)
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649_9 (length 71)
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649_10 (length 139)
+sample2_prokka/sample2:NODE_3_length_7148_cov_337.268195 (length 7148)
+sample2_prokka/sample2:NODE_3_length_7148_cov_337.268195_1 (length 416)
+sample2_prokka/sample2:NODE_3_length_7148_cov_337.268195_2 (length 121)
+sample2_prokka/sample2:NODE_3_length_7148_cov_337.268195_3 (length 121)
+sample2_prokka/sample2:NODE_3_length_7148_cov_337.268195_4 (length 61)
+sample2_prokka/sample2:NODE_3_length_7148_cov_337.268195_5 (length 222)
+sample2_prokka/sample2:NODE_3_length_7148_cov_337.268195_6 (length 275)
+sample2_prokka/sample2:NODE_3_length_7148_cov_337.268195_7 (length 892)
+sample2_prokka/sample2:NODE_4_length_4940_cov_443.500312 (length 4940)
+sample2_prokka/sample2:NODE_4_length_4940_cov_443.500312_1 (length 1616)
+sample2_prokka/sample2:NODE_5_length_2255_cov_2.634398 (length 2255)
+sample2_prokka/sample2:NODE_5_length_2255_cov_2.634398_1 (length 115)
+sample2_prokka/sample2:NODE_5_length_2255_cov_2.634398_2 (length 56)
+sample2_prokka/sample2:NODE_5_length_2255_cov_2.634398_3 (length 68)
+sample2_prokka/sample2:NODE_6_length_2183_cov_2.428988 (length 2183)
+sample2_prokka/sample2:NODE_6_length_2183_cov_2.428988_1 (length 34)
+sample2_prokka/sample2:NODE_7_length_1658_cov_4.133246 (length 1658)
+sample2_prokka/sample2:NODE_7_length_1658_cov_4.133246_1 (length 169)
+sample2_prokka/sample2:NODE_8_length_1093_cov_291.265010 (length 1093)
+sample2_prokka/sample2:NODE_9_length_911_cov_1.123724 (length 911)
+sample2_prokka/sample2:NODE_10_length_851_cov_0.838398 (length 851)
+sample2_prokka/sample2:NODE_10_length_851_cov_0.838398_1 (length 255)
+sample2_prokka/sample2:NODE_11_length_826_cov_1.204578 (length 826)
+sample2_prokka/sample2:NODE_12_length_810_cov_0.941435 (length 810)
+sample2_prokka/sample2:NODE_12_length_810_cov_0.941435_1 (length 119)
+sample2_prokka/sample2:NODE_13_length_796_cov_1.467862 (length 796)
+sample2_prokka/sample2:NODE_14_length_724_cov_1.422111 (length 724)
+sample2_prokka/sample2:NODE_14_length_724_cov_1.422111_1 (length 86)
+sample2_prokka/sample2:NODE_15_length_703_cov_1.164931 (length 703)
+sample2_prokka/sample2:NODE_16_length_622_cov_2.258586 (length 622)
+sample2_prokka/sample2:NODE_17_length_612_cov_1.255670 (length 612)
+sample2_prokka/sample2:NODE_17_length_612_cov_1.255670_1 (length 45)
+sample2_prokka/sample2:NODE_18_length_586_cov_0.793028 (length 586)
+sample2_prokka/sample2:NODE_18_length_586_cov_0.793028_1 (length 56)
+sample2_prokka/sample2:NODE_19_length_539_cov_1.502427 (length 539)
+sample2_prokka/sample2:NODE_20_length_525_cov_1.763819 (length 525)
+sample2_prokka/sample2:NODE_21_length_513_cov_1.222798 (length 513)
+sample2_prokka/sample2:NODE_22_length_513_cov_0.932642 (length 513)
+sample2_prokka/sample2:NODE_23_length_511_cov_0.479167 (length 511)
+sample2_prokka/sample2:NODE_24_length_510_cov_1.237598 (length 510)
+sample2_prokka/sample2:NODE_25_length_494_cov_0.899183 (length 494)
+sample2_prokka/sample2:NODE_26_length_465_cov_1.272189 (length 465)
+sample2_prokka/sample2:NODE_27_length_461_cov_0.736527 (length 461)
+sample2_prokka/sample2:NODE_28_length_453_cov_160.171779 (length 453)
+sample2_prokka/sample2:NODE_29_length_445_cov_0.666667 (length 445)
+sample2_prokka/sample2:NODE_30_length_443_cov_0.753165 (length 443)
+sample2_prokka/sample2:NODE_31_length_439_cov_0.750000 (length 439)
+sample2_prokka/sample2:NODE_32_length_439_cov_0.682692 (length 439)
+sample2_prokka/sample2:NODE_33_length_433_cov_1.405229 (length 433)
+sample2_prokka/sample2:NODE_33_length_433_cov_1.405229_1 (length 114)
+sample2_prokka/sample2:NODE_34_length_431_cov_0.815789 (length 431)
+sample2_prokka/sample2:NODE_35_length_431_cov_0.776316 (length 431)
+sample2_prokka/sample2:NODE_36_length_421_cov_0.697279 (length 421)
+sample2_prokka/sample2:NODE_37_length_418_cov_1.580756 (length 418)
+sample2_prokka/sample2:NODE_37_length_418_cov_1.580756_1 (length 71)
+sample2_prokka/sample2:NODE_38_length_417_cov_0.855172 (length 417)
+sample2_prokka/sample2:NODE_39_length_417_cov_0.672414 (length 417)
+sample2_prokka/sample2:NODE_40_length_409_cov_1.510638 (length 409)
+sample2_prokka/sample2:NODE_41_length_409_cov_0.755319 (length 409)
+sample2_prokka/sample2:NODE_42_length_404_cov_0.855596 (length 404)
+sample2_prokka/sample2:NODE_43_length_399_cov_0.900735 (length 399)
+sample2_prokka/sample2:NODE_44_length_397_cov_0.900000 (length 397)
+sample2_prokka/sample2:NODE_44_length_397_cov_0.900000_1 (length 51)
+sample2_prokka/sample2:NODE_45_length_396_cov_0.858736 (length 396)
+sample2_prokka/sample2:NODE_46_length_395_cov_0.925373 (length 395)
+sample2_prokka/sample2:NODE_47_length_394_cov_0.921348 (length 394)
+sample2_prokka/sample2:NODE_48_length_393_cov_0.909774 (length 393)
+sample2_prokka/sample2:NODE_49_length_392_cov_0.705660 (length 392)
+sample2_prokka/sample2:NODE_50_length_392_cov_0.600000 (length 392)
+sample2_prokka/sample2:NODE_50_length_392_cov_0.600000_1 (length 81)
+sample2_prokka/sample2:NODE_51_length_390_cov_1.794677 (length 390)
+sample2_prokka/sample2:NODE_52_length_389_cov_0.935115 (length 389)
+sample2_prokka/sample2:NODE_53_length_383_cov_0.746094 (length 383)
+sample2_prokka/sample2:NODE_53_length_383_cov_0.746094_1 (length 104)
+sample2_prokka/sample2:NODE_54_length_380_cov_0.956522 (length 380)
+sample2_prokka/sample2:NODE_55_length_237_cov_26.609091 (length 237)
+sample2_prokka/sample2:NODE_56_length_207_cov_642.050000 (length 207)
+sample2_prokka/sample2:NODE_57_length_207_cov_95.162500 (length 207)
+sample2_prokka/sample2:NODE_58_length_206_cov_259.126582 (length 206)
+sample2_prokka/sample2:NODE_59_length_206_cov_51.126582 (length 206)
+sample2_prokka/sample2:NODE_60_length_201_cov_191.567568 (length 201)
+sample2_prokka/sample2:NODE_61_length_191_cov_83.437500 (length 191)
+sample2_prokka/sample2:NODE_62_length_191_cov_51.187500 (length 191)
+sample2_prokka/sample2:NODE_63_length_181_cov_85.351852 (length 181)
+sample2_prokka/sample2:NODE_64_length_181_cov_50.111111 (length 181)
+sample2_prokka/sample2:NODE_65_length_181_cov_34.685185 (length 181)
+sample2_prokka/sample2:NODE_66_length_181_cov_22.148148 (length 181)
+sample2_prokka/sample2:NODE_67_length_179_cov_17.192308 (length 179)
+sample2_prokka/sample2:NODE_68_length_176_cov_539.979592 (length 176)
+sample2_prokka/sample2:NODE_69_length_176_cov_103.816327 (length 176)
+sample2_prokka/sample2:NODE_70_length_175_cov_718.520833 (length 175)
+sample2_prokka/sample2:NODE_71_length_175_cov_72.250000 (length 175)
+sample2_prokka/sample2:NODE_72_length_175_cov_28.687500 (length 175)
+sample2_prokka/sample2:NODE_73_length_152_cov_712.120000 (length 152)
+sample2_prokka/sample2:NODE_74_length_152_cov_105.240000 (length 152)
+sample2_prokka/sample2:NODE_75_length_152_cov_82.280000 (length 152)
+sample2_prokka/sample2:NODE_76_length_145_cov_27.111111 (length 145)
+sample2_prokka/sample2:NODE_77_length_145_cov_21.666667 (length 145)
+sample2_prokka/sample2:NODE_78_length_134_cov_1088.428571 (length 134)
+sample2_prokka/sample2:NODE_79_length_134_cov_90.571429 (length 134)
+sample2_prokka/sample2:NODE_80_length_134_cov_7.857143 (length 134)
+sample2_prokka/sample2:NODE_81_length_128_cov_172.000000 (length 128)
+sample2_prokka/sample2:NODE_82_length_128_cov_151.000000 (length 128)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::82 Molinfos are missing field technique
+sample2_prokka/sample2:NODE_1_length_17115_cov_466.372910 (length 17115, 100 gap)
+sample2_prokka/sample2:NODE_2_length_15198_cov_4.975649 (length 15198)
+sample2_prokka/sample2:NODE_3_length_7148_cov_337.268195 (length 7148)
+sample2_prokka/sample2:NODE_4_length_4940_cov_443.500312 (length 4940)
+sample2_prokka/sample2:NODE_5_length_2255_cov_2.634398 (length 2255)
+sample2_prokka/sample2:NODE_6_length_2183_cov_2.428988 (length 2183)
+sample2_prokka/sample2:NODE_7_length_1658_cov_4.133246 (length 1658)
+sample2_prokka/sample2:NODE_8_length_1093_cov_291.265010 (length 1093)
+sample2_prokka/sample2:NODE_9_length_911_cov_1.123724 (length 911)
+sample2_prokka/sample2:NODE_10_length_851_cov_0.838398 (length 851)
+sample2_prokka/sample2:NODE_11_length_826_cov_1.204578 (length 826)
+sample2_prokka/sample2:NODE_12_length_810_cov_0.941435 (length 810)
+sample2_prokka/sample2:NODE_13_length_796_cov_1.467862 (length 796)
+sample2_prokka/sample2:NODE_14_length_724_cov_1.422111 (length 724)
+sample2_prokka/sample2:NODE_15_length_703_cov_1.164931 (length 703)
+sample2_prokka/sample2:NODE_16_length_622_cov_2.258586 (length 622)
+sample2_prokka/sample2:NODE_17_length_612_cov_1.255670 (length 612)
+sample2_prokka/sample2:NODE_18_length_586_cov_0.793028 (length 586)
+sample2_prokka/sample2:NODE_19_length_539_cov_1.502427 (length 539)
+sample2_prokka/sample2:NODE_20_length_525_cov_1.763819 (length 525)
+sample2_prokka/sample2:NODE_21_length_513_cov_1.222798 (length 513)
+sample2_prokka/sample2:NODE_22_length_513_cov_0.932642 (length 513)
+sample2_prokka/sample2:NODE_23_length_511_cov_0.479167 (length 511)
+sample2_prokka/sample2:NODE_24_length_510_cov_1.237598 (length 510)
+sample2_prokka/sample2:NODE_25_length_494_cov_0.899183 (length 494)
+sample2_prokka/sample2:NODE_26_length_465_cov_1.272189 (length 465)
+sample2_prokka/sample2:NODE_27_length_461_cov_0.736527 (length 461)
+sample2_prokka/sample2:NODE_28_length_453_cov_160.171779 (length 453)
+sample2_prokka/sample2:NODE_29_length_445_cov_0.666667 (length 445)
+sample2_prokka/sample2:NODE_30_length_443_cov_0.753165 (length 443)
+sample2_prokka/sample2:NODE_31_length_439_cov_0.750000 (length 439)
+sample2_prokka/sample2:NODE_32_length_439_cov_0.682692 (length 439)
+sample2_prokka/sample2:NODE_33_length_433_cov_1.405229 (length 433)
+sample2_prokka/sample2:NODE_34_length_431_cov_0.815789 (length 431)
+sample2_prokka/sample2:NODE_35_length_431_cov_0.776316 (length 431)
+sample2_prokka/sample2:NODE_36_length_421_cov_0.697279 (length 421)
+sample2_prokka/sample2:NODE_37_length_418_cov_1.580756 (length 418)
+sample2_prokka/sample2:NODE_38_length_417_cov_0.855172 (length 417)
+sample2_prokka/sample2:NODE_39_length_417_cov_0.672414 (length 417)
+sample2_prokka/sample2:NODE_40_length_409_cov_1.510638 (length 409)
+sample2_prokka/sample2:NODE_41_length_409_cov_0.755319 (length 409)
+sample2_prokka/sample2:NODE_42_length_404_cov_0.855596 (length 404)
+sample2_prokka/sample2:NODE_43_length_399_cov_0.900735 (length 399)
+sample2_prokka/sample2:NODE_44_length_397_cov_0.900000 (length 397)
+sample2_prokka/sample2:NODE_45_length_396_cov_0.858736 (length 396)
+sample2_prokka/sample2:NODE_46_length_395_cov_0.925373 (length 395)
+sample2_prokka/sample2:NODE_47_length_394_cov_0.921348 (length 394)
+sample2_prokka/sample2:NODE_48_length_393_cov_0.909774 (length 393)
+sample2_prokka/sample2:NODE_49_length_392_cov_0.705660 (length 392)
+sample2_prokka/sample2:NODE_50_length_392_cov_0.600000 (length 392)
+sample2_prokka/sample2:NODE_51_length_390_cov_1.794677 (length 390)
+sample2_prokka/sample2:NODE_52_length_389_cov_0.935115 (length 389)
+sample2_prokka/sample2:NODE_53_length_383_cov_0.746094 (length 383)
+sample2_prokka/sample2:NODE_54_length_380_cov_0.956522 (length 380)
+sample2_prokka/sample2:NODE_55_length_237_cov_26.609091 (length 237)
+sample2_prokka/sample2:NODE_56_length_207_cov_642.050000 (length 207)
+sample2_prokka/sample2:NODE_57_length_207_cov_95.162500 (length 207)
+sample2_prokka/sample2:NODE_58_length_206_cov_259.126582 (length 206)
+sample2_prokka/sample2:NODE_59_length_206_cov_51.126582 (length 206)
+sample2_prokka/sample2:NODE_60_length_201_cov_191.567568 (length 201)
+sample2_prokka/sample2:NODE_61_length_191_cov_83.437500 (length 191)
+sample2_prokka/sample2:NODE_62_length_191_cov_51.187500 (length 191)
+sample2_prokka/sample2:NODE_63_length_181_cov_85.351852 (length 181)
+sample2_prokka/sample2:NODE_64_length_181_cov_50.111111 (length 181)
+sample2_prokka/sample2:NODE_65_length_181_cov_34.685185 (length 181)
+sample2_prokka/sample2:NODE_66_length_181_cov_22.148148 (length 181)
+sample2_prokka/sample2:NODE_67_length_179_cov_17.192308 (length 179)
+sample2_prokka/sample2:NODE_68_length_176_cov_539.979592 (length 176)
+sample2_prokka/sample2:NODE_69_length_176_cov_103.816327 (length 176)
+sample2_prokka/sample2:NODE_70_length_175_cov_718.520833 (length 175)
+sample2_prokka/sample2:NODE_71_length_175_cov_72.250000 (length 175)
+sample2_prokka/sample2:NODE_72_length_175_cov_28.687500 (length 175)
+sample2_prokka/sample2:NODE_73_length_152_cov_712.120000 (length 152)
+sample2_prokka/sample2:NODE_74_length_152_cov_105.240000 (length 152)
+sample2_prokka/sample2:NODE_75_length_152_cov_82.280000 (length 152)
+sample2_prokka/sample2:NODE_76_length_145_cov_27.111111 (length 145)
+sample2_prokka/sample2:NODE_77_length_145_cov_21.666667 (length 145)
+sample2_prokka/sample2:NODE_78_length_134_cov_1088.428571 (length 134)
+sample2_prokka/sample2:NODE_79_length_134_cov_90.571429 (length 134)
+sample2_prokka/sample2:NODE_80_length_134_cov_7.857143 (length 134)
+sample2_prokka/sample2:NODE_81_length_128_cov_172.000000 (length 128)
+sample2_prokka/sample2:NODE_82_length_128_cov_151.000000 (length 128)
+
+DiscRep_ALL:DISC_GAPS::1 sequences contain gaps
+sample2_prokka/sample2:NODE_1_length_17115_cov_466.372910 (length 17115, 100 gap)
+
+DiscRep_ALL:SEQ_ID_PHRASES::Sequence Ids contain unacceptable phrases (cov_, length, node, paired, or trimmed)
+

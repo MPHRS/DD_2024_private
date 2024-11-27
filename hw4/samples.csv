@@ -1,0 +1,5 @@
+sample_id,read_1,read_2,assembly
+sample1,./test_input/SRR31122807_1.fastq,./test_input/SRR31122807_2.fastq,
+sample2,./test_input/SRR31122801_1.fastq,./test_input/SRR31122801_2.fastq,./test_input/scaffolds_2.fasta
+
+

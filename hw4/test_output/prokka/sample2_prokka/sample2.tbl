@@ -1,0 +1,238 @@
+>Feature NODE_1_length_17115_cov_466.372910
+770	594	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00001
+			product	hypothetical protein
+1846	1469	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00002
+			product	hypothetical protein
+2829	2368	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00003
+			product	hypothetical protein
+6621	6265	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00004
+			product	hypothetical protein
+7626	7787	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00005
+			product	hypothetical protein
+9658	13779	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00006
+			product	hypothetical protein
+>Feature NODE_2_length_15198_cov_4.975649
+6707	207	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00007
+			product	hypothetical protein
+7027	6773	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00008
+			product	hypothetical protein
+7475	7011	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00009
+			product	hypothetical protein
+9594	7825	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00010
+			product	hypothetical protein
+10579	9647	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00011
+			product	hypothetical protein
+12190	11234	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00012
+			product	hypothetical protein
+12919	12194	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00013
+			product	hypothetical protein
+14127	12952	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00014
+			product	hypothetical protein
+14718	14503	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00015
+			product	hypothetical protein
+15166	14747	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00016
+			product	hypothetical protein
+>Feature NODE_3_length_7148_cov_337.268195
+1563	313	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00017
+			product	hypothetical protein
+1943	1578	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00018
+			product	hypothetical protein
+2443	2078	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00019
+			product	hypothetical protein
+2635	2450	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00020
+			product	hypothetical protein
+3314	2646	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00021
+			product	hypothetical protein
+4444	3617	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00022
+			product	hypothetical protein
+7131	4453	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00023
+			product	hypothetical protein
+>Feature NODE_4_length_4940_cov_443.500312
+13	4863	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00024
+			product	hypothetical protein
+>Feature NODE_5_length_2255_cov_2.634398
+993	646	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00025
+			product	hypothetical protein
+1655	1825	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00026
+			product	hypothetical protein
+1792	1998	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00027
+			product	hypothetical protein
+>Feature NODE_6_length_2183_cov_2.428988
+1479	1375	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00028
+			product	hypothetical protein
+>Feature NODE_7_length_1658_cov_4.133246
+626	1135	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00029
+			product	hypothetical protein
+>Feature NODE_8_length_1093_cov_291.265010
+>Feature NODE_9_length_911_cov_1.123724
+>Feature NODE_10_length_851_cov_0.838398
+802	35	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00030
+			product	hypothetical protein
+>Feature NODE_11_length_826_cov_1.204578
+>Feature NODE_12_length_810_cov_0.941435
+529	170	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00031
+			product	hypothetical protein
+>Feature NODE_13_length_796_cov_1.467862
+>Feature NODE_14_length_724_cov_1.422111
+237	497	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00032
+			product	hypothetical protein
+>Feature NODE_15_length_703_cov_1.164931
+>Feature NODE_16_length_622_cov_2.258586
+>Feature NODE_17_length_612_cov_1.255670
+609	472	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00033
+			product	hypothetical protein
+>Feature NODE_18_length_586_cov_0.793028
+211	41	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00034
+			product	hypothetical protein
+>Feature NODE_19_length_539_cov_1.502427
+>Feature NODE_20_length_525_cov_1.763819
+>Feature NODE_21_length_513_cov_1.222798
+>Feature NODE_22_length_513_cov_0.932642
+>Feature NODE_23_length_511_cov_0.479167
+>Feature NODE_24_length_510_cov_1.237598
+>Feature NODE_25_length_494_cov_0.899183
+>Feature NODE_26_length_465_cov_1.272189
+>Feature NODE_27_length_461_cov_0.736527
+>Feature NODE_28_length_453_cov_160.171779
+>Feature NODE_29_length_445_cov_0.666667
+>Feature NODE_30_length_443_cov_0.753165
+>Feature NODE_31_length_439_cov_0.750000
+>Feature NODE_32_length_439_cov_0.682692
+>Feature NODE_33_length_433_cov_1.405229
+49	393	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00035
+			product	hypothetical protein
+>Feature NODE_34_length_431_cov_0.815789
+>Feature NODE_35_length_431_cov_0.776316
+>Feature NODE_36_length_421_cov_0.697279
+>Feature NODE_37_length_418_cov_1.580756
+352	137	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00036
+			product	hypothetical protein
+>Feature NODE_38_length_417_cov_0.855172
+>Feature NODE_39_length_417_cov_0.672414
+>Feature NODE_40_length_409_cov_1.510638
+>Feature NODE_41_length_409_cov_0.755319
+>Feature NODE_42_length_404_cov_0.855596
+>Feature NODE_43_length_399_cov_0.900735
+>Feature NODE_44_length_397_cov_0.900000
+187	342	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00037
+			product	hypothetical protein
+>Feature NODE_45_length_396_cov_0.858736
+>Feature NODE_46_length_395_cov_0.925373
+>Feature NODE_47_length_394_cov_0.921348
+>Feature NODE_48_length_393_cov_0.909774
+>Feature NODE_49_length_392_cov_0.705660
+>Feature NODE_50_length_392_cov_0.600000
+369	124	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00038
+			product	hypothetical protein
+>Feature NODE_51_length_390_cov_1.794677
+>Feature NODE_52_length_389_cov_0.935115
+>Feature NODE_53_length_383_cov_0.746094
+358	44	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	DFJKPONM_00039
+			product	hypothetical protein
+>Feature NODE_54_length_380_cov_0.956522
+>Feature NODE_55_length_237_cov_26.609091
+>Feature NODE_56_length_207_cov_642.050000
+>Feature NODE_57_length_207_cov_95.162500
+>Feature NODE_58_length_206_cov_259.126582
+>Feature NODE_59_length_206_cov_51.126582
+>Feature NODE_60_length_201_cov_191.567568
+>Feature NODE_61_length_191_cov_83.437500
+>Feature NODE_62_length_191_cov_51.187500
+>Feature NODE_63_length_181_cov_85.351852
+>Feature NODE_64_length_181_cov_50.111111
+>Feature NODE_65_length_181_cov_34.685185
+>Feature NODE_66_length_181_cov_22.148148
+>Feature NODE_67_length_179_cov_17.192308
+>Feature NODE_68_length_176_cov_539.979592
+>Feature NODE_69_length_176_cov_103.816327
+>Feature NODE_70_length_175_cov_718.520833
+>Feature NODE_71_length_175_cov_72.250000
+>Feature NODE_72_length_175_cov_28.687500
+>Feature NODE_73_length_152_cov_712.120000
+>Feature NODE_74_length_152_cov_105.240000
+>Feature NODE_75_length_152_cov_82.280000
+>Feature NODE_76_length_145_cov_27.111111
+>Feature NODE_77_length_145_cov_21.666667
+>Feature NODE_78_length_134_cov_1088.428571
+>Feature NODE_79_length_134_cov_90.571429
+>Feature NODE_80_length_134_cov_7.857143
+>Feature NODE_81_length_128_cov_172.000000
+>Feature NODE_82_length_128_cov_151.000000
