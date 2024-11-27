@@ -1,4 +1,4 @@
-Æ---
+÷---
 max read length: 251
 nomerge max read length: 251
 average read length: 163.044
@@ -8,11 +8,11 @@ libraries:
     number:          1
     orientation:     fr
     left reads:
-      - '/home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/corrected/SRR31122807_1.00.0_0.cor.fastq.gz'
+      - '/home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/corrected/SRR31122807_1.00.0_0.cor.fastq.gz'
     right reads:
-      - '/home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/corrected/SRR31122807_2.00.0_0.cor.fastq.gz'
+      - '/home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/corrected/SRR31122807_2.00.0_0.cor.fastq.gz'
     single reads:
-      - '/home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/corrected/SRR31122807__unpaired.00.0_0.cor.fastq.gz'
+      - '/home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/corrected/SRR31122807__unpaired.00.0_0.cor.fastq.gz'
     data:
       unmerged read length: 251
       merged read length: 0
@@ -26,11 +26,11 @@ libraries:
       pi threshold:    0
       binary reads info:
         binary converted: true
-        bin reads info file: '/home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/.bin_reads/INFO_0'
-        paired read prefix: '/home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/.bin_reads/paired_0'
-        merged read prefix: '/home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/.bin_reads/merged_0'
-        single read prefix: '/home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/.bin_reads/single_0'
-        chunk num:       8
+        bin reads info file: '/home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/.bin_reads/INFO_0'
+        paired read prefix: '/home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/.bin_reads/paired_0'
+        merged read prefix: '/home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/.bin_reads/merged_0'
+        single read prefix: '/home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/.bin_reads/single_0'
+        chunk num:       4
       single reads mapped: false
       library index:   0
       number of reads: 311317

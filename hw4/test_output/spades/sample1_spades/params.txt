@@ -1,11 +1,11 @@
-Command line: /SPAdes-3.15.5-Linux/bin/spades.py	-1	/home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/SRR31122807_1.fastq	-2	/home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/SRR31122807_2.fastq	-o	/home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades	
+Command line: /SPAdes-3.15.5-Linux/bin/spades.py	-1	/home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/SRR31122807_1.fastq	-2	/home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/SRR31122807_2.fastq	-o	/home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades	--threads	4	--memory	16	
 
 System information:
   SPAdes version: 3.15.5
   Python version: 3.8.10
   OS: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.29
 
-Output dir: /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades
+Output dir: /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades
 Mode: read error correction and assembling
 Debug mode is turned OFF
 
@@ -15,8 +15,8 @@ Dataset parameters:
   Reads:
     Library number: 1, library type: paired-end
       orientation: fr
-      left reads: ['/home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/SRR31122807_1.fastq']
-      right reads: ['/home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/SRR31122807_2.fastq']
+      left reads: ['/home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/SRR31122807_1.fastq']
+      right reads: ['/home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/SRR31122807_2.fastq']
       interlaced reads: not specified
       single reads: not specified
       merged reads: not specified
@@ -31,7 +31,7 @@ Assembly parameters:
   MismatchCorrector will be SKIPPED
   Coverage cutoff is turned OFF
 Other parameters:
-  Dir for temp files: /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/tmp
-  Threads: 16
-  Memory limit (in Gb): 7
+  Dir for temp files: /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/tmp
+  Threads: 4
+  Memory limit (in Gb): 16
 

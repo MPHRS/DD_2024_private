@@ -1,10 +1,53 @@
-// Обязательно включаем DSL2
-nextflow.enable.dsl=2
 
-process fastqc_n{
+// Задаём параметры через params
+params.outdir = "./test_output"  // Путь для вывода по умолчанию
+params.threads = 8               // Количество потоков по умолчанию
 
-    tag { sample_name } // Указание имени для каждой задачи
-    publishDir("./test_output/fastqc", mode: "copy")
+params.spades = [
+    threads: 4,                  // Параметры для SPADES
+    memory: "8G"
+]
+
+params.quast = [
+    reference: ""  // Путь к референсному файлу
+]
+
+params.prokka = [
+    genus: "Escherichia"          // Род по умолчанию
+]
+
+params.abricate = [
+    database: "ncbi"              // База данных по умолчанию для Abricate
+]
+
+import groovy.json.JsonSlurper
+
+// Функция для загрузки JSON и обновления параметров
+def loadParamsFromJson(jsonPath) {
+    def jsonFile = new File(jsonPath)
+    def json = new JsonSlurper().parseText(jsonFile.text)
+    
+    // Обновляем параметры через params
+    params.outdir = json.global_params.outdir ?: params.outdir
+    params.threads = json.global_params.threads ?: params.threads
+    
+    params.spades.threads = json.spades?.threads ?: params.spades.threads
+    params.spades.memory = json.spades?.memory ?: params.spades.memory
+    
+    params.quast.reference = json.quast?.reference ?: params.quast.reference
+    
+    params.prokka.genus = json.prokka?.genus ?: params.prokka.genus
+    
+    params.abricate.database = json.abricate?.database ?: params.abricate.database
+}
+
+// Загружаем параметры из JSON файла
+loadParamsFromJson('./params.json')
+
+// Процесс для FastQC
+process fastqc_n {
+    tag { sample_name }
+    publishDir("${params.outdir}/fastqc", mode: "copy")
     input:
     tuple val(sample_name), path(read1), path(read2), val(assembly)
 
@@ -18,10 +61,11 @@ process fastqc_n{
     """
 }
 
-process spades_n{
+// Процесс для SPADES
+process spades_n {
     tag {sample_name}
 
-    publishDir ("./test_output/spades", mode: "copy")
+    publishDir("${params.outdir}/spades", mode: "copy")
     input:
     tuple val(sample_name), path(read1), path(read2), val(assembly)
     
@@ -31,10 +75,10 @@ process spades_n{
     script:
     """
     mkdir -p ${sample_name}_spades
-    spades.py -1 ${read1} -2  ${read2} -o ${sample_name}_spades
+    spades.py -1 ${read1} -2 ${read2} -o ${sample_name}_spades --threads ${params.spades.threads} --memory ${params.spades.memory.replaceAll("[^\\d]", "")}
+
     """
 }
-
 process quast_n{
     tag {sample_name}
 
@@ -190,16 +234,16 @@ quast(assembly_channel)
 prokka(assembly_channel)
 abricate(assembly_channel)
 
-result.without_scaffolds.view { items ->
-    if (items.size() > 0) {
-        println "Без скаффолда есть"
-    }
-}
-result.with_scaffolds.view { items ->
-    if (items.size() > 0) {
-        println "С скаффолдом есть"
-    }
-}
+// result.without_scaffolds.view { items ->
+//     if (items.size() > 0) {
+//         println "Без скаффолда есть"
+//     }
+// }
+// result.with_scaffolds.view { items ->
+//     if (items.size() > 0) {
+//         println "С скаффолдом есть"
+//     }
+// }
 
 }
 

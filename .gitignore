@@ -188,3 +188,7 @@ hw2/spades/scaffolds.paths
 hw4/work/
 hw4/*.log
 hw4/.nextflow/
+hw4/test_input/SRR292862_1.fastq
+hw4/test_input/SRR292862_1.fastq:Zone.Identifier
+hw4/test_input/SRR292862_2.fastq
+hw4/test_input/SRR292862_2.fastq:Zone.Identifier

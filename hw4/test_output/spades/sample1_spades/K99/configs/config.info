@@ -11,22 +11,22 @@ K 99
 ;FIXME introduce isolate mode
 mode base
 
-dataset /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/dataset.info
+dataset /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/dataset.info
 log_filename    log.properties
 
-output_base /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades
-tmp_dir /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/tmp/spades_cnvsezlj
+output_base /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades
+tmp_dir /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/tmp/spades_a9cmgzmv
 
 main_iteration false
 ; iterative mode switcher, activates additional contigs usage
 use_additional_contigs true
-additional_contigs /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/K77/simplified_contigs
-load_from /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/K99/saves
+additional_contigs /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/K77/simplified_contigs
+load_from /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/K99/saves
 
 ; Multithreading options
 temp_bin_reads_dir	.bin_reads/
-max_threads 16
-max_memory 7
+max_threads 4
+max_memory 16
 buffer_size     512; in Megabytes
 
 entry_point read_conversion

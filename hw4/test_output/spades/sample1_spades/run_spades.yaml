@@ -14,25 +14,25 @@
   short_name: ec_start
 - STAGE: Read error correction
   args:
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/corrected/configs/config.info
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/corrected/configs/config.info
   config_dir: corrected
   del_after:
-  - tmp/hammer_u66ylnyo
+  - tmp/hammer_bslgdbkl
   output_files:
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/corrected/corrected.yaml
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/corrected/corrected.yaml
   path: /SPAdes-3.15.5-Linux/bin/spades-hammer
   short_name: ec_runtool
 - STAGE: corrected reads compression
   args:
   - /SPAdes-3.15.5-Linux/share/spades/spades_pipeline/scripts/compress_all.py
   - --input_file
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/corrected/corrected.yaml
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/corrected/corrected.yaml
   - --ext_python_modules_home
   - /SPAdes-3.15.5-Linux/share/spades
   - --max_threads
-  - '16'
+  - '4'
   - --output_dir
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/corrected
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/corrected
   - --gzip_output
   config_dir: ''
   del_after: []
@@ -55,7 +55,7 @@
   short_name: as_start
 - STAGE: K21
   args:
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/K21/configs/config.info
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/K21/configs/config.info
   config_dir: K21
   del_after: []
   output_files: []
@@ -63,7 +63,7 @@
   short_name: k21
 - STAGE: K33
   args:
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/K33/configs/config.info
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/K33/configs/config.info
   config_dir: K33
   del_after: []
   output_files: []
@@ -71,7 +71,7 @@
   short_name: k33
 - STAGE: K55
   args:
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/K55/configs/config.info
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/K55/configs/config.info
   config_dir: K55
   del_after: []
   output_files: []
@@ -79,7 +79,7 @@
   short_name: k55
 - STAGE: K77
   args:
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/K77/configs/config.info
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/K77/configs/config.info
   config_dir: K77
   del_after: []
   output_files: []
@@ -87,7 +87,7 @@
   short_name: k77
 - STAGE: K99
   args:
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/K99/configs/config.info
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/K99/configs/config.info
   config_dir: K99
   del_after: []
   output_files: []
@@ -95,7 +95,7 @@
   short_name: k99
 - STAGE: K127
   args:
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/K127/configs/config.info
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/K127/configs/config.info
   config_dir: K127
   del_after: []
   output_files: []
@@ -104,30 +104,30 @@
 - STAGE: Copy files
   args:
   - /SPAdes-3.15.5-Linux/share/spades/spades_pipeline/scripts/copy_files.py
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/K127/before_rr.fasta
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/before_rr.fasta
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/K127/assembly_graph_after_simplification.gfa
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/assembly_graph_after_simplification.gfa
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/K127/final_contigs.fasta
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/contigs.fasta
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/K127/first_pe_contigs.fasta
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/first_pe_contigs.fasta
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/K127/strain_graph.gfa
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/strain_graph.gfa
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/K127/scaffolds.fasta
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/scaffolds.fasta
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/K127/scaffolds.paths
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/scaffolds.paths
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/K127/assembly_graph_with_scaffolds.gfa
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/assembly_graph_with_scaffolds.gfa
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/K127/assembly_graph.fastg
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/assembly_graph.fastg
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/K127/final_contigs.paths
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/contigs.paths
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/K127/before_rr.fasta
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/before_rr.fasta
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/K127/assembly_graph_after_simplification.gfa
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/assembly_graph_after_simplification.gfa
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/K127/final_contigs.fasta
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/contigs.fasta
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/K127/first_pe_contigs.fasta
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/first_pe_contigs.fasta
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/K127/strain_graph.gfa
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/strain_graph.gfa
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/K127/scaffolds.fasta
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/scaffolds.fasta
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/K127/scaffolds.paths
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/scaffolds.paths
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/K127/assembly_graph_with_scaffolds.gfa
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/assembly_graph_with_scaffolds.gfa
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/K127/assembly_graph.fastg
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/assembly_graph.fastg
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/K127/final_contigs.paths
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/contigs.paths
   config_dir: ''
   del_after:
   - .bin_reads
-  - tmp/spades_cnvsezlj
+  - tmp/spades_a9cmgzmv
   output_files: []
   path: /usr/bin/python
   short_name: copy_files
@@ -142,9 +142,9 @@
   args:
   - /SPAdes-3.15.5-Linux/share/spades/spades_pipeline/scripts/breaking_scaffolds_script.py
   - --result_scaffolds_filename
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/scaffolds.fasta
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/scaffolds.fasta
   - --misc_dir
-  - /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/misc
+  - /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/misc
   - --threshold_for_breaking_scaffolds
   - '3'
   config_dir: ''

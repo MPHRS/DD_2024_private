@@ -1,0 +1,115 @@
+Nov-27 13:33:05.291 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf --with-docker
+Nov-27 13:33:05.659 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.10.1
+Nov-27 13:33:05.694 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/mhprs/.nextflow/plugins; core-plugins: nf-amazon@2.9.1,nf-azure@1.10.2,nf-cloudcache@0.4.2,nf-codecommit@0.2.2,nf-console@1.1.4,nf-google@1.15.2,nf-tower@1.9.3,nf-wave@1.7.3
+Nov-27 13:33:05.748 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Nov-27 13:33:05.749 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Nov-27 13:33:05.755 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+Nov-27 13:33:05.781 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Nov-27 13:33:05.829 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/nextflow.config
+Nov-27 13:33:05.854 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/nextflow.config
+Nov-27 13:33:05.899 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/mhprs/.nextflow/secrets/store.json
+Nov-27 13:33:05.903 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@4b61d0c6] - activable => nextflow.secret.LocalSecretsProvider@4b61d0c6
+Nov-27 13:33:05.921 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Nov-27 13:33:06.590 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+Nov-27 13:33:06.634 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [mad_nobel] DSL2 - revision: 6755dcdda6
+Nov-27 13:33:06.638 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Nov-27 13:33:06.639 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Nov-27 13:33:06.815 [main] DEBUG nextflow.Session - Session UUID: e6ad60d5-295d-4c48-94ec-f08205c5fda1
+Nov-27 13:33:06.816 [main] DEBUG nextflow.Session - Run name: mad_nobel
+Nov-27 13:33:06.817 [main] DEBUG nextflow.Session - Executor pool size: 8
+Nov-27 13:33:06.845 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Nov-27 13:33:06.862 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Nov-27 13:33:06.948 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 24.10.1 build 5930
+  Created: 18-11-2024 12:21 UTC (15:21 MSD)
+  System: Linux 5.15.167.4-microsoft-standard-WSL2
+  Runtime: Groovy 4.0.23 on OpenJDK 64-Bit Server VM 17.0.8+7
+  Encoding: UTF-8 (UTF-8)
+  Process: 14211@Seraph [127.0.1.1]
+  CPUs: 8 - Mem: 7.6 GB (5.4 GB) - Swap: 2 GB (1.9 GB)
+Nov-27 13:33:07.017 [main] DEBUG nextflow.Session - Work-dir: /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work [ext2/ext3]
+Nov-27 13:33:07.024 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/bin
+Nov-27 13:33:07.055 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Nov-27 13:33:07.078 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Nov-27 13:33:07.152 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Nov-27 13:33:07.182 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+Nov-27 13:33:07.341 [main] DEBUG nextflow.Session - Session start
+Nov-27 13:33:08.590 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Nov-27 13:33:09.061 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:fastqc_n` matches process fastqc_n
+Nov-27 13:33:09.080 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Nov-27 13:33:09.081 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Nov-27 13:33:09.095 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Nov-27 13:33:09.116 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=7.6 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+Nov-27 13:33:09.125 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Nov-27 13:33:09.269 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:spades_n` matches process spades_n
+Nov-27 13:33:09.272 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Nov-27 13:33:09.273 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Nov-27 13:33:09.312 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:quast_n` matches process quast_n
+Nov-27 13:33:09.315 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Nov-27 13:33:09.315 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Nov-27 13:33:09.335 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:prokka_n` matches process prokka_n
+Nov-27 13:33:09.336 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Nov-27 13:33:09.336 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Nov-27 13:33:09.354 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:abricate_n` matches process abricate_n
+Nov-27 13:33:09.362 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Nov-27 13:33:09.363 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Nov-27 13:33:09.381 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:quast` matches process quast
+Nov-27 13:33:09.384 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Nov-27 13:33:09.384 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Nov-27 13:33:09.398 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:prokka` matches process prokka
+Nov-27 13:33:09.401 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Nov-27 13:33:09.401 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Nov-27 13:33:09.425 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:abricate` matches process abricate
+Nov-27 13:33:09.428 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Nov-27 13:33:09.428 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Nov-27 13:33:09.489 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: abricate_n, quast, fastqc_n, abricate, quast_n, spades_n, prokka_n, prokka
+Nov-27 13:33:09.492 [main] DEBUG nextflow.Session - Igniting dataflow network (9)
+Nov-27 13:33:09.518 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > fastqc_n
+Nov-27 13:33:09.518 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > spades_n
+Nov-27 13:33:09.519 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > quast_n
+Nov-27 13:33:09.519 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > prokka_n
+Nov-27 13:33:09.519 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > abricate_n
+Nov-27 13:33:09.519 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > quast
+Nov-27 13:33:09.520 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > prokka
+Nov-27 13:33:09.521 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > abricate
+Nov-27 13:33:09.521 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_e1012f4e62cb45b1: /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/main.nf
+Nov-27 13:33:09.525 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Nov-27 13:33:09.525 [main] DEBUG nextflow.Session - Session await
+Nov-27 13:33:09.570 [Actor Thread 7] INFO  nextflow.script.BaseScript - С скаффолдом есть
+Nov-27 13:33:09.570 [Actor Thread 4] INFO  nextflow.script.BaseScript - Без скаффолда есть
+Nov-27 13:33:10.002 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Nov-27 13:33:10.007 [Task submitter] INFO  nextflow.Session - [7a/f8711b] Submitted process > quast (sample2)
+Nov-27 13:33:10.026 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Nov-27 13:33:10.027 [Task submitter] INFO  nextflow.Session - [5b/2f84ce] Submitted process > fastqc_n (sample1)
+Nov-27 13:33:10.042 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Nov-27 13:33:10.044 [Task submitter] INFO  nextflow.Session - [c3/3886a5] Submitted process > spades_n (sample1)
+Nov-27 13:33:10.064 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Nov-27 13:33:10.066 [Task submitter] INFO  nextflow.Session - [d7/d84b55] Submitted process > abricate (sample2)
+Nov-27 13:33:10.076 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Nov-27 13:33:10.078 [Task submitter] INFO  nextflow.Session - [53/93674d] Submitted process > prokka (sample2)
+Nov-27 13:33:13.926 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: abricate (sample2); status: COMPLETED; exit: 0; error: -; workDir: /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/d7/d84b55974706a5f7226cfb2b516369]
+Nov-27 13:33:13.929 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Nov-27 13:33:14.006 [TaskFinalizer-1] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Nov-27 13:33:17.889 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: quast (sample2); status: COMPLETED; exit: 0; error: -; workDir: /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/7a/f8711b92919a1f36c8272bacb17205]
+Nov-27 13:33:21.003 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: prokka (sample2); status: COMPLETED; exit: 0; error: -; workDir: /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/53/93674db9ae0440dc0a5251987ab3ab]
+Nov-27 13:33:24.622 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: fastqc_n (sample1); status: COMPLETED; exit: 0; error: -; workDir: /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/5b/2f84cedc0244a261912405a171e8e0]
+Nov-27 13:34:28.840 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: spades_n (sample1); status: COMPLETED; exit: 0; error: -; workDir: /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f]
+Nov-27 13:34:28.883 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Nov-27 13:34:28.885 [Task submitter] INFO  nextflow.Session - [2f/1c7fdb] Submitted process > quast_n (sample1)
+Nov-27 13:34:28.896 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Nov-27 13:34:28.897 [Task submitter] INFO  nextflow.Session - [6f/af3a29] Submitted process > prokka_n (sample1)
+Nov-27 13:34:28.913 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Nov-27 13:34:28.915 [Task submitter] INFO  nextflow.Session - [c2/bbf0eb] Submitted process > abricate_n (sample1)
+Nov-27 13:34:30.549 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 7; name: abricate_n (sample1); status: COMPLETED; exit: 0; error: -; workDir: /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c2/bbf0eb6e14ceb6e58f3fe37f42b8ae]
+Nov-27 13:34:32.717 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 8; name: quast_n (sample1); status: COMPLETED; exit: 0; error: -; workDir: /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/2f/1c7fdb49b0dd8afe42245f9f51cbc3]
+Nov-27 13:34:33.790 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 6; name: prokka_n (sample1); status: COMPLETED; exit: 0; error: -; workDir: /home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/6f/af3a2942d398a78437d53183afbe0e]
+Nov-27 13:34:33.794 [main] DEBUG nextflow.Session - Session await > all processes finished
+Nov-27 13:34:33.892 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Nov-27 13:34:33.892 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Nov-27 13:34:33.898 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'TaskFinalizer' shutdown completed (hard=false)
+Nov-27 13:34:33.900 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+Nov-27 13:34:33.909 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=8; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=2m 6s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=5; peakCpus=5; peakMemory=0; ]
+Nov-27 13:34:34.110 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Nov-27 13:34:34.149 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Nov-27 13:34:34.150 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

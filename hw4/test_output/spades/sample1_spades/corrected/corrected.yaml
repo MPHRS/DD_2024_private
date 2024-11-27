@@ -1,9 +1,9 @@
 - "left reads":
-  - "/home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/corrected/SRR31122807_1.00.0_0.cor.fastq.gz"
+  - "/home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/corrected/SRR31122807_1.00.0_0.cor.fastq.gz"
   "number": !!int "1"
   "orientation": "fr"
   "right reads":
-  - "/home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/corrected/SRR31122807_2.00.0_0.cor.fastq.gz"
+  - "/home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/corrected/SRR31122807_2.00.0_0.cor.fastq.gz"
   "single reads":
-  - "/home/mhprs/PISH/Data_driven/DD_2024_private/hw4/work/c3/3886a5b60f221a230d7c676a21055f/sample1_spades/corrected/SRR31122807__unpaired.00.0_0.cor.fastq.gz"
+  - "/home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work/28/f2d658af81257912dd25df2626f636/sample1_spades/corrected/SRR31122807__unpaired.00.0_0.cor.fastq.gz"
   "type": "paired-end"

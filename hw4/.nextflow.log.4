@@ -1,0 +1,145 @@
+Nov-27 14:27:30.740 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf --with-docker
+Nov-27 14:27:31.029 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.10.1
+Nov-27 14:27:31.050 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/mhprs/.nextflow/plugins; core-plugins: nf-amazon@2.9.1,nf-azure@1.10.2,nf-cloudcache@0.4.2,nf-codecommit@0.2.2,nf-console@1.1.4,nf-google@1.15.2,nf-tower@1.9.3,nf-wave@1.7.3
+Nov-27 14:27:31.087 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Nov-27 14:27:31.088 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Nov-27 14:27:31.095 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+Nov-27 14:27:31.113 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Nov-27 14:27:31.151 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/nextflow.config
+Nov-27 14:27:31.154 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/nextflow.config
+Nov-27 14:27:31.192 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/mhprs/.nextflow/secrets/store.json
+Nov-27 14:27:31.199 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@62315f22] - activable => nextflow.secret.LocalSecretsProvider@62315f22
+Nov-27 14:27:31.234 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Nov-27 14:27:31.750 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+Nov-27 14:27:31.775 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [exotic_ritchie] DSL2 - revision: ce94a5a4b1
+Nov-27 14:27:31.778 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Nov-27 14:27:31.778 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Nov-27 14:27:31.864 [main] DEBUG nextflow.Session - Session UUID: 64530281-4954-41ae-9a98-1753f0b59a42
+Nov-27 14:27:31.864 [main] DEBUG nextflow.Session - Run name: exotic_ritchie
+Nov-27 14:27:31.864 [main] DEBUG nextflow.Session - Executor pool size: 8
+Nov-27 14:27:31.877 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Nov-27 14:27:31.888 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Nov-27 14:27:31.927 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 24.10.1 build 5930
+  Created: 18-11-2024 12:21 UTC (15:21 MSD)
+  System: Linux 5.15.167.4-microsoft-standard-WSL2
+  Runtime: Groovy 4.0.23 on OpenJDK 64-Bit Server VM 17.0.8+7
+  Encoding: UTF-8 (UTF-8)
+  Process: 27299@Seraph [127.0.1.1]
+  CPUs: 8 - Mem: 7.6 GB (5.2 GB) - Swap: 2 GB (1.9 GB)
+Nov-27 14:27:31.962 [main] DEBUG nextflow.Session - Work-dir: /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/work [ext2/ext3]
+Nov-27 14:27:31.963 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/bin
+Nov-27 14:27:31.974 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Nov-27 14:27:31.985 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Nov-27 14:27:32.016 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Nov-27 14:27:32.032 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+Nov-27 14:27:32.115 [main] DEBUG nextflow.Session - Session start
+Nov-27 14:27:32.824 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Nov-27 14:27:32.846 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_8f17e8e084d49ec9: /home/mhprs/PISH/Data_driven/DD_new/DD_2024_private/hw4/main.nf
+Nov-27 14:27:32.848 [main] DEBUG nextflow.Session - Session aborted -- Cause: No such property: global_params for class: Script_8f17e8e084d49ec9
+Nov-27 14:27:32.852 [main] DEBUG nextflow.Session - 
+Thread[Reference Handler,10,system]
+  java.base@17.0.8/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+  java.base@17.0.8/java.lang.ref.Reference.processPendingReferences(Reference.java:253)
+  java.base@17.0.8/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+
+Thread[Signal Dispatcher,9,system]
+
+Thread[process reaper,10,system]
+  java.base@17.0.8/jdk.internal.misc.Unsafe.park(Native Method)
+  java.base@17.0.8/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+  java.base@17.0.8/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+  java.base@17.0.8/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+  java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+  java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+  java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+  java.base@17.0.8/java.lang.Thread.run(Thread.java:833)
+
+Thread[Common-Cleaner,8,InnocuousThreadGroup]
+  java.base@17.0.8/java.lang.Object.wait(Native Method)
+  java.base@17.0.8/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+  java.base@17.0.8/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+  java.base@17.0.8/java.lang.Thread.run(Thread.java:833)
+  java.base@17.0.8/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+
+Thread[Notification Thread,9,system]
+
+Thread[Thread-1,5,main]
+  java.base@17.0.8/jdk.internal.misc.Unsafe.park(Native Method)
+  java.base@17.0.8/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+  java.base@17.0.8/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+  java.base@17.0.8/java.util.concurrent.LinkedBlockingDeque.pollFirst(LinkedBlockingDeque.java:515)
+  java.base@17.0.8/java.util.concurrent.LinkedBlockingDeque.poll(LinkedBlockingDeque.java:677)
+  app//nextflow.util.SimpleAgent.run(SimpleAgent.groovy:89)
+  java.base@17.0.8/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base@17.0.8/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  java.base@17.0.8/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base@17.0.8/java.lang.reflect.Method.invoke(Method.java:568)
+  app//org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+  app//groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+  app//groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+  app//groovy.lang.MetaClassImpl.invokeMethodClosure(MetaClassImpl.java:1017)
+  app//groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1207)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+  app//groovy.lang.Closure.call(Closure.java:433)
+  app//groovy.lang.Closure.call(Closure.java:412)
+  app//groovy.lang.Closure.run(Closure.java:505)
+  java.base@17.0.8/java.lang.Thread.run(Thread.java:833)
+
+Thread[AnsiLogObserver,5,main]
+  java.base@17.0.8/java.lang.Object.wait(Native Method)
+  app//nextflow.trace.AnsiLogObserver.render0(AnsiLogObserver.groovy:185)
+  java.base@17.0.8/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base@17.0.8/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  java.base@17.0.8/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base@17.0.8/java.lang.reflect.Method.invoke(Method.java:568)
+  app//org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+  app//groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+  app//groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+  app//groovy.lang.MetaClassImpl.invokeMethodClosure(MetaClassImpl.java:1017)
+  app//groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1207)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+  app//groovy.lang.Closure.call(Closure.java:433)
+  app//groovy.lang.Closure.call(Closure.java:412)
+  app//groovy.lang.Closure.run(Closure.java:505)
+  java.base@17.0.8/java.lang.Thread.run(Thread.java:833)
+
+Thread[main,5,main]
+  java.base@17.0.8/java.lang.Thread.dumpThreads(Native Method)
+  java.base@17.0.8/java.lang.Thread.getAllStackTraces(Thread.java:1662)
+  app//nextflow.util.SysHelper.dumpThreads(SysHelper.groovy:188)
+  app//nextflow.Session.abort(Session.groovy:800)
+  app//nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:149)
+  app//nextflow.cli.CmdRun.run(CmdRun.groovy:376)
+  app//nextflow.cli.Launcher.run(Launcher.groovy:503)
+  app//nextflow.cli.Launcher.main(Launcher.groovy:658)
+
+Thread[Finalizer,8,system]
+  java.base@17.0.8/java.lang.Object.wait(Native Method)
+  java.base@17.0.8/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+  java.base@17.0.8/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+  java.base@17.0.8/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:172)
+
+Nov-27 14:27:32.859 [main] ERROR nextflow.cli.Launcher - @unknown
+groovy.lang.MissingPropertyException: No such property: global_params for class: Script_8f17e8e084d49ec9
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:67)
+	at org.codehaus.groovy.vmplugin.v8.IndyGuardsFiltersAndSignatures.unwrap(IndyGuardsFiltersAndSignatures.java:163)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at Script_8f17e8e084d49ec9.loadParamsFromJson(Script_8f17e8e084d49ec9:37)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at Script_8f17e8e084d49ec9.runScript(Script_8f17e8e084d49ec9:51)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at nextflow.script.BaseScript.run0(BaseScript.groovy:159)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at nextflow.script.BaseScript.run(BaseScript.groovy:209)
+	at nextflow.script.ScriptParser.runScript(ScriptParser.groovy:236)
+	at nextflow.script.ScriptRunner.run(ScriptRunner.groovy:243)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:138)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:376)
+	at nextflow.cli.Launcher.run(Launcher.groovy:503)
+	at nextflow.cli.Launcher.main(Launcher.groovy:658)
